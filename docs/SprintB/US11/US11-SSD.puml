@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Administrator" as ADM
+activate ADM
+ADM -> ":System" : asks for a list of Employees\nwith a given role
+
+activate ":System"
+
+ADM <-- ":System": shows role list and\nasks to select one
+deactivate ":System"
+
+ADM -> ":System": selects a role
+activate ":System"
+ADM <-- ":System": Shows list of employees
+deactivate ":System"
+
+@enduml

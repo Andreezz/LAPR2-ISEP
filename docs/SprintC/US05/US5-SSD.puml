@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Nurse" as N
+activate N
+N -> ":System" : wants a list of SNS Users on the\nwaiting room
+activate ":System"
+
+N <-- ":System": asks confirmation about the centre\nthe nurse works at
+deactivate ":System"
+
+N -> ":System" : confirms the Centre
+activate ":System"
+
+N <-- ":System": shows the waiting room list\nand asks for confirmation
+deactivate ":System"
+
+N -> ":System" : confirms the action
+activate ":System"
+
+N <-- ":System": informs about operation success
+deactivate ":System"
+
+@enduml

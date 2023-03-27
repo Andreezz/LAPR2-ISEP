@@ -1,0 +1,115 @@
+@startuml
+class "Employee" as E{
+-Name
+-Employee Number
+-Age
+-Phone Number
+-E-mail
+-CC
+-Occupation
+}
+
+class Administrator{
+}
+class Receptionist{
+}
+class "Center Coordinator" as coordinator{
+}
+class "SNS User" as user{
+-Name
+-Age
+-Phone Number
+-E-mail
+-CC
+-NHS number
+-Health condition
+}
+class "Vaccination Center" as VC{
+-Name
+-Address
+-Phone Number
+-E-mail
+-Fax Number
+-Link
+-Opening Hours
+-Closing Hours
+-Slot Duration
+-Max Vaccines per slot
+}
+class "Health Care Center" as HCC{
+-Name
+-Address
+-Phone Number
+-E-mail
+-Fax Number
+-Link
+-Opening Hours
+-Closing Hours
+-Max Vaccines per slot
+}
+class Vaccine {
+-Vaccine ID
+-Brand
+}
+class "Type of Vaccine" as type{
+-Code
+-Type
+}
+class "Nurse" as nurse{
+}
+class "Vaccine Schedule" as schedule{
+-Vaccine Center
+-Date
+-Time
+}
+class "Vaccine Administration" as adminVac{
+-Vaccine Type
+-Vaccine Name
+-Lot Number
+-Dosage
+-Doses Number
+-Time Interval
+}
+class "EU COVID Digital Certificate" as certificado{
+-User Name
+-First dose date
+-Second dose date
+-Third dose date
+}
+class "Adverse Reactions" as reaction {
+-Symptom
+-Description
+}
+
+Administrator-up-|>E
+nurse-up-|>E
+Receptionist-up-|>E
+coordinator-up-|>E
+
+
+Receptionist"1"--"*"user:registers arrivals
+Administrator"1"--"*"HCC:  managing the\ninformation of
+
+VC"*"-up-"1"HCC: has
+nurse"*"-up->"*"HCC:works at
+HCC"*"--"*"Receptionist: works at
+user "*"--"*"type:requests
+user"0..10"-right-"*"schedule:chooses
+
+nurse"1"--"*"adminVac: performs
+adminVac"*"--"1"user: given to
+adminVac"*"--"1"schedule: in a
+
+VC"*"--"1"type:applies
+adminVac"*"-right-"0..*"reaction: has
+
+coordinator"1"--"*"VC:manages information of
+
+HCC"*"--"*"certificado:emites
+
+adminVac"*"--"*"Vaccine:of a
+
+certificado"*"--"1"Receptionist:issued by
+
+Vaccine"*"--"1"type: has
+@enduml

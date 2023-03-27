@@ -1,0 +1,36 @@
+@startuml
+
+autonumber
+actor "Administrator" as ADM
+activate ADM
+
+ADM -> ":System" : requests to register an employee
+
+activate ":System"
+":System" --> ADM : shows employee's role list
+deactivate ":System"
+
+ADM -> ":System" : chooses role
+
+activate ":System"
+":System" --> ADM : asks for employee's information
+deactivate ":System"
+
+ADM -> ":System" : types information
+
+activate ":System"
+":System" --> ADM : shows info and asks if it is correct
+deactivate ":System"
+
+ADM -> ":System" : confirms that the information is correct
+
+activate ":System"
+":System" --> ADM : system will confirm that the employee has been registered and will ask if user wants to exit
+deactivate ":System"
+
+ADM -> ":System" : decides to exit or to register another employee
+activate ":System"
+deactivate ":System"
+deactivate ADM
+
+@enduml

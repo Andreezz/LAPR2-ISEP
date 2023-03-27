@@ -1,0 +1,61 @@
+@startuml
+autonumber
+actor Administrator as ADM
+participant "NewVaccinesUI" as NVUI
+participant "NewVaccineController" as NVC
+participant "Company" as C
+participant "VaccineStore" as NV
+
+activate ADM
+loop do while (! end)
+activate NVUI
+activate NVC
+activate C
+activate NV
+opt do while (!isInfoCorrect())
+ADM -> NVUI : Requests a list of currently registered vaccines
+end opt
+NVUI -> NVC :ConsultCurrentVaccines()
+NVC -> C : GetCurrentVaccines()
+C -> NV : GetVaccineStore()
+NV -> C : gives data
+deactivate NV
+C -> NVUI : Returns vaccine
+deactivate C
+deactivate NVC
+NVUI -> ADM : List consulting interface
+deactivate NVUI
+deactivate ADM
+deactivate NVC
+loop do while(!isInfoCorrect())
+
+opt do while (!isInfoCorrect())
+ADM -> NVUI : Registers new vaccine
+activate NVUI
+activate ADM
+ADM -> NVUI : Registers new vaccine properties
+end opt
+NVUI -> NVC :RegisterNewVaccine()
+activate NVC
+activate NVC
+NVC -> C :Validate NewVaccine()
+activate C
+activate NV
+C -> NV : InsertNewVaccine()
+NVUI -> ADM : Shows if the new vaccine as been registered sucessfully
+end loop
+deactivate NV
+
+
+
+
+
+
+
+
+
+
+deactivate ADM
+
+
+@enduml

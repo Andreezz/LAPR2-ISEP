@@ -1,0 +1,23 @@
+@startuml
+
+class Administrator
+
+class CenterCoordinator
+class Nurse
+class Receptionist
+
+Administrator --> Employee
+Employee --> Nurse
+Employee --> CenterCoordinator
+Employee --> Receptionist
+
+class Employee {
+-Name
+-EmployeeNumber
+-Age
+-Phone Number
+-Email
+-CC
+}
+
+@enduml

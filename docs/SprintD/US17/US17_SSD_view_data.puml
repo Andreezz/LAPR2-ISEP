@@ -1,0 +1,34 @@
+@startuml
+
+autonumber
+
+actor ":Coordinator" as adm
+participant ":System" as sys
+
+activate adm
+
+adm -> sys : chooses to view center data
+
+activate sys
+
+sys --> adm : asks in what order the actor wants to sort the list
+
+deactivate sys
+
+adm -> sys : chooses ascending or descending order
+
+activate sys
+
+sys --> adm : asks by what date and time the actor wants to sort the list
+
+deactivate sys
+
+adm -> sys : chooses arrival date and time or leaving date and time
+
+activate sys
+
+sys --> adm : presents the list sorted as specified by the actor
+
+deactivate adm
+
+@enduml

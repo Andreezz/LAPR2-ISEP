@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+SNSuserSchUI "1"--|> ScSNSUserController
+ScSNSUserController "1"--|> Company
+Company "1"--|> ScheduledSNSUserStore
+ScheduledSNSUserStore "1"--|> ScheduleVaccineSNSUser
+
+
+class SNSuserSchUI{
+- ScheduleVaccineMenu()
+- controller.saveScheduleVaccine()
+- controller.getScheduleVaccineList()
+- controller.ClearSchedule()
+}
+
+class ScSNSUserController{
+- createSc()
+- ClearScheduledVacc()
+- getScheduledVaccineList()
+- getScheduledVaccineinfo()
+}
+
+class Company{
+- this.scheduledstore= new ScheduledSNSUserStore();
+}
+
+class ScheduleVaccineSNSUser{
+- private String number;
+- private String age;
+- private String gender;
+- private String vaccine;
+- private String date;
+- private String hours;
+- private String NameCenter;
+}
+class ScheduledSNSUserStore{
+- createSc()
+- ScheduledCheck()
+- existsScheduled()
+- ValidateScheduleVaccine()
+- saveNewScheduledVaccine()
+}
+
+
+
+@enduml

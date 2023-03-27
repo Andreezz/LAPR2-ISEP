@@ -1,0 +1,24 @@
+@startuml
+autonumber
+actor "Center Coordinator" as RPT
+activate RPT
+
+RPT -> ":System" : Request a csv with users full vaccinated
+
+activate ":System"
+":System" --> RPT : Request a file´s path
+deactivate ":System"
+
+RPT -> ":System" : Types file path
+
+activate ":System"
+":System" --> RPT : Ask to confirm the file´s path
+deactivate ":System"
+
+RPT -> ":System" : Confirms the file´s path
+
+activate ":System"
+":System" --> RPT : informs that the file was loaded with success in the system
+deactivate ":System"
+
+@enduml

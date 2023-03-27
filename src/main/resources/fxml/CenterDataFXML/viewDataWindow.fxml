@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400" prefWidth="600" style="-fx-background-color: #fcdda7;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.CenterDataGUI.ViewDataUI">
+   <children>
+      <Button fx:id="listButton" layoutX="116.0" layoutY="29.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#viewList" prefHeight="43.0" prefWidth="368.0" style="-fx-border-color: #34a832; -fx-border-width: 2;" text="Click Here to see the data sorted in a list">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="selectionLabel" layoutX="152.0" layoutY="108.0" prefHeight="43.0" prefWidth="323.0" style="-fx-background-color: #fbffcf; -fx-border-color: #eff705; -fx-border-width: 2;" text="Select the order and the type of sorting for the list:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="orderBox" layoutX="128.0" layoutY="187.0" prefWidth="150.0" />
+      <ComboBox fx:id="typeBox" layoutX="314.0" layoutY="187.0" prefWidth="150.0" />
+      <Button fx:id="returnButton" layoutX="225.0" layoutY="351.0" mnemonicParsing="false" onAction="#returnCord" prefHeight="34.0" prefWidth="150.0" style="-fx-border-color: #fa0505; -fx-border-width: 2;" text="Return">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextArea fx:id="list" editable="false" layoutX="116.0" layoutY="83.0" prefHeight="258.0" prefWidth="368.0" style="-fx-border-color: #eff705; -fx-border-width: 2;" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect></TextArea>
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+@startuml
+
+autonumber
+
+actor ":Coordinator" as adm
+participant ":System" as sys
+
+activate adm
+
+adm -> sys : chooses to load a file
+
+activate sys
+
+sys --> adm : asks for file's path
+
+deactivate sys
+
+adm -> sys : types file's path
+
+activate sys
+
+sys --> adm : requests for path's confirmation
+
+deactivate sys
+
+adm -> sys : confirms path
+
+activate sys
+
+sys --> adm : informs that the file was loaded successfully
+
+deactivate sys
+
+@enduml

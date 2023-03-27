@@ -1,0 +1,77 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class "Company" as comp{
+-designation
+}
+
+class "CenterDataCSV" as csv{
+}
+
+class "CenterCoordinator" as cord{
+}
+
+class "Vaccination Center" as VC{
+-Name
+-Type of Centre
+-Address
+-Phone Number
+-E-mail
+-Fax Number
+-Link
+-Opening Hours
+-Closing Hours
+}
+
+class "Vaccine" as vac {
+-Brand
+-Vaccine Properties
+}
+
+class "Type of Vaccine" as type{
+-Code
+-Type
+-Tech
+}
+
+class "SNS User" as user{
+-Name
+-Phone Number
+-Email
+-CC Number
+-SNS Number
+-Address
+-BirthDate
+-gender
+}
+
+
+class "Employee" as E{
+-Name
+-Employee id
+-Address
+-Phone Number
+-Email
+-CC
+}
+
+class "CenterData" as cd{
+-arrivalDateTime
+-scheduleDateTime
+-administrationDateTime
+-leavingDateTime
+-SNSnumber
+-lotNumber
+-vaccineName
+-dose
+}
+
+comp --> E : employees
+cord -up-|> E
+cord --> VC : manages information of
+cord -left-> csv : loads
+comp --> user : provides services to
+VC -right-> type : applies
+vac -up-> type : has
+csv -left-> cd : contains
+@enduml

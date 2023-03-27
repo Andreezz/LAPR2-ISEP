@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.RolesGUI.NurseWindowUI">
+   <children>
+      <Button fx:id="reactionsButton" layoutX="119.0" layoutY="153.0" mnemonicParsing="false" onAction="#reactionsUI" prefHeight="46.0" prefWidth="362.0" text="Record Adverse Reactions of a SNS user">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="vaccineAdminButton" layoutX="118.0" layoutY="223.0" mnemonicParsing="false" onAction="#vaccineAdminUI" prefHeight="46.0" prefWidth="362.0" text="Record the Administration of a Vaccine to a SNS user">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="245.0" layoutY="91.0" prefHeight="34.0" prefWidth="109.0" text="Nurse Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnButton" layoutX="234.0" layoutY="315.0" mnemonicParsing="false" onAction="#returnMain" prefHeight="34.0" prefWidth="130.0" text="Return">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

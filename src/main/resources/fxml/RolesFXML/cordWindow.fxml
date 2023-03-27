@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.RolesGUI.CoordinatorWindowUI">
+   <top>
+      <AnchorPane prefHeight="90.0" prefWidth="600.0" style="-fx-background-color: #2F4F4F;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="178.0" layoutY="32.0" text="Center Coordinator Menu" textFill="WHITE" AnchorPane.topAnchor="32.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="282.0" fitWidth="600.0" layoutY="27.0" opacity="0.5">
+               <image>
+                  <Image url="@../../img/What-is-the-Average-HR-Coordinator-Salary.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="centerData" onAction="#centerData" layoutX="194.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="227.0" text="Load and View Center Data" />
+            <Button fx:id="exportStats" onAction="#exportStats" layoutX="194.0" layoutY="103.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="227.0" text="Export Vaccination Statistics" />
+            <Button fx:id="centerPerformance" onAction="#centerPerformance" layoutX="195.0" layoutY="153.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="225.0" text="Analyze Performance of Center" />
+            <Button fx:id="returnButton" onAction="#returnMain" layoutX="249.0" layoutY="212.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="117.0" text="Return" />
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="56.0" prefWidth="600.0" style="-fx-background-color: #2F4F4F; -fx-border-style: solid; -fx-border-color: black;" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

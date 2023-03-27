@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "SNS User" as SU
+participant ":SpecifyNew \n SNSuserSchUI" as UI
+participant ":SpecifyNew \n ScSNSUSerController" as Controller
+participant ":SpecifyNew \n Company" as C
+participant ":SpecifyNew \n ScheduledSNSUserStore" as Store
+participant ":SpecifyNew \n ScheduleVaccineSNSUser" as SV
+
+activate SU
+activate UI
+SU-> UI: Login
+SU-> UI: Chooses a determined given option
+UI--> SU: Inserts the user in a determined function
+SU-> UI: Starts to schedule a vaccine
+UI-> SU: Requests for information
+activate SV
+activate Controller
+UI-> Controller: createSc(number, birthdate, gender, vaccine, date, hours, NameCenter)
+Controller->SV: setSNSNumber(SNSNumber)
+Controller->SV: setBirthdate(birthdate)
+Controller->SV: setGender(Gender)
+Controller->SV: setVaccine(Vaccine)
+Controller->SV: setDate(Date)
+Controller->SV: setHours(Hours)
+Controller->SV: setNameCenter(NameCenter)
+SV->SV: Checks all given sets
+SV-> Controller: Gives a go-on response
+deactivate SV
+Controller-> Controller: ValidateScheduledVaccine()
+activate Store
+Controller-> Store: SaveScheduledVaccine()
+deactivate Controller
+Store-> C: saveNewScheduledVaccine()
+activate C
+Store-> UI: Returns a confirmation/denial message
+deactivate C
+UI-> SU: Displays a confirmation/denial message
+deactivate UI
+deactivate SU
+deactivate Store
+
+SU-> UI: Wants to see the currently registered vaccination schedule
+activate SU
+activate UI
+UI-> Controller: getScheduledVaccineList()
+activate Controller
+Controller-> Store: getScheduleVaccineList()
+activate Store
+Store-> C: getSchedulVaccineList
+activate C
+C-> Store: getScheduleList()
+deactivate C
+Store-> Controller: Returns the list
+Controller->UI: getScheduledVaccineList()
+deactivate Controller
+UI-> SU: displays the requested list
+deactivate SU
+deactivate Store
+deactivate UI
+SU-> UI: Selects to eliminate the currently existing list
+activate SU
+activate UI
+UI-> Controller: clearScheduledList()
+activate Controller
+Controller-> Store: clearScheduledList()
+activate Store
+Store-> C: clearScheduled()
+activate C
+C-> Store: Returns an empty scheduled list
+deactivate C
+Store-> Controller: clearScheduledList()
+deactivate Store
+Controller-> UI: clearScheduledList()
+deactivate Controller
+UI-> SU :Returns an empty schedule list
+
+
+
+
+
+
+@enduml

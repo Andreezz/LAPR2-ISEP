@@ -1,0 +1,104 @@
+@startuml
+autonumber
+actor "Nurse" as SU
+participant ":SpecifyNew \n AdverseReacUI" as UI
+participant ":SpecifyNew \n RegisterAdReaController" as Controller
+participant ":SpecifyNew \n Company" as C
+participant ":SpecifyNew \n AdverseReacStore" as Store
+participant ":SpecifyNew \n AdverseReac" as SV
+
+SU -> UI: Chooses an available option (AdReaMenu())
+activate SU
+activate UI
+UI -> SU: Inserts the User in the choosed option
+deactivate SU
+deactivate UI
+
+SU -> UI: Starts to register the SNS User's adverse reactions
+activate SU
+activate UI
+UI -> SU: Requests information about the SNS User and the adverse reactions
+SU -> UI: Returns the requested information (SNS Number, Adverse Reactions)
+UI -> Controller: createAdRea(snsnumber, adversereactions)
+activate Controller
+Controller -> SV : getSNSNumber(snsnumber)
+
+activate SV
+Controller -> SV : getAdversereactions(adversereactions)
+SV -> SV : Checks the given information (CheckSNSNumber(snsnumber))
+SV -> Controller: Validates the given information (ValidateAdRea(AdverseReac adversereac))
+deactivate SV
+Controller -> Store: saveAdRea(snsnumber,adversereactions)
+deactivate Controller
+activate Store
+activate C
+Store-> C: SaveNewAdRea()
+deactivate C
+Store -> UI: Returns a confirmation/denial message
+deactivate Store
+UI-> SU: Displays a confirmation/denial message
+deactivate UI
+deactivate SU
+
+SU-> UI: Requests to consult the currently registered SNS User's adverse reactions
+activate SU
+activate UI
+UI-> Controller: getAdReaList()
+activate Controller
+Controller-> Store: getAdReaList()
+activate Store
+Store-> C: getAdreaction()
+activate C
+C-> Store: getAdReaction()
+deactivate C
+Store -> Controller: GetadverseReac()
+deactivate Store
+Controller -> UI: getAdReaList()
+deactivate Controller
+UI-> SU: Displays the requested list (SNS User's adverse reactions)
+deactivate UI
+deactivate SU
+
+SU-> UI: Requests for the elimination  of the list
+activate SU
+activate UI
+UI-> Controller: clearAdRea()
+activate Controller
+Controller-> Store: ClearAdRea()
+activate Store
+Store-> C: clearAdRea()
+activate C
+C-> Store: returns a empty list
+deactivate C
+Store-> Controller: ClearAdRea()
+deactivate Store
+Controller-> UI: clearAdRea()
+deactivate Controller
+UI-> SU: Displays a message of elimination confirmation message
+deactivate SU
+deactivate UI
+
+SU-> UI: Requests for the elimination of a determined SNS User's adverse reactions
+activate SU
+activate UI
+UI-> Controller: RemoveOneAdRea()
+activate Controller
+Controller-> Store:RemoveOneAdRea(g)
+activate Store
+Store-> C: deletion of a determined element of the list
+activate C
+C-> Store: return of the updated list
+deactivate C
+Store-> Controller: RemoveOneAdRea()
+deactivate Store
+Controller->UI: RemoveOneAdRea(g)
+deactivate Controller
+UI-> SU: Returns a  deletion confirmation message
+deactivate SU
+
+
+
+
+
+
+@enduml

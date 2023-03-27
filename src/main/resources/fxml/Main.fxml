@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.MainUI">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="224.0">
+               <image>
+                  <Image url="@../img/falcontech.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="388.0" style="-fx-background-color: #2F4F4F;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="52.0" layoutY="38.0" text="Welcome to Vacc63's App!" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="88.0" text="Choose an option to Start!" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginButton" layoutX="21.0" layoutY="187.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="144.0" text="Login">
+               <font>
+                  <Font name="Bodoni MT" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="devButton" layoutX="201.0" layoutY="187.0" mnemonicParsing="false" onAction="#dev" prefHeight="40.0" prefWidth="144.0" text="Development Team">
+               <font>
+                  <Font name="Bodoni MT" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

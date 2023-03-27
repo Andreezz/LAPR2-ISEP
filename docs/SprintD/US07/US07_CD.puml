@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+AdverseReacUI "1"--|> RegisterAdReaController
+RegisterAdReaController "1"--|> Company
+Company "1"--|> AdverseReacStore
+AdverseReacStore "1"--|> AdverseReac
+
+
+class AdverseReacUI{
+- AdreaMenu()
+--------
+- ctrl.createAdRea(snsnumber,adversereactions)
+- ctrl.validateAdRea(ctrl.getAdversereac())
+- ctrl.saveAdRea(snsnumber, adversereactions)
+- ctrl.getAdReaList()
+- ctrl.clearAdRea()
+- ctrl.getAdReaList()
+-ctrl.RemoveOneAdRea(g);
+}
+
+class RegisterAdReaController{
+- createAdRea(String snsnumber, String adversereactions)
+- clearAdRea()
+- getAdReaList()
+- RemoveOneAdRea(int g)
+- validateAdRea(AdverseReac adversereac)
+- getAdversereac()
+- saveAdRea(String snsnumber, String adversereactions)
+}
+
+class Company{
+- getAdversereacstore()
+- this.adrealist= new AdverseReacStore()
+}
+
+class AdverseReac{
+-private String snsnumber
+-private String Adversereactions
+}
+class AdverseReacStore{
+-createAdRea(String snsnumber, String adversereactions)
+- ValidateAdRea(AdverseReac adrea)
+- getAdReaList()
+- clearAdRea()
+- getAdreaction()
+-RemoveOneAdRea(int g)
+- saveNewAdRea(AdverseReac adrea)
+- loadToLocalList()
+- saveList()
+}
+
+
+
+@enduml

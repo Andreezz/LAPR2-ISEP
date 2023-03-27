@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="400" maxWidth="600" minHeight="400" minWidth="600" prefHeight="400" prefWidth="600" style="-fx-background-color: #fcdda7;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.CenterDataGUI.ChooseOperationUI">
+   <children>
+      <ImageView fitHeight="471.0" fitWidth="711.0" layoutX="-56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/banner-our-data-1920x1080.jpg" />
+         </image></ImageView>
+      <Label fx:id="chooseOption" layoutX="108.0" layoutY="105.0" prefHeight="42.0" prefWidth="439.0" style="-fx-border-color: #eff705; -fx-border-width: 2; -fx-background-color: #fbffcf;" text="Select an option by clicking one of the buttons below">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Button layoutX="108.0" layoutY="183.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#loadCenterData" prefHeight="34.0" prefWidth="149.0" style="-fx-border-color: #34a832; -fx-border-width: 2;" text="Load Center Data">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="395.0" layoutY="183.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#viewCenterData" prefHeight="34.0" prefWidth="149.0" style="-fx-border-color: #34a832; -fx-border-width: 2;" text="View Center Data">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="returnButton" layoutX="260.0" layoutY="291.0" mnemonicParsing="false" onAction="#returnCord" prefHeight="34.0" prefWidth="135.0" style="-fx-border-color: #fa0505; -fx-border-width: 2;" text="Return">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

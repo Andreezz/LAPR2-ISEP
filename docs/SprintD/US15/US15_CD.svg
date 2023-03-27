@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="491px" preserveAspectRatio="none" style="width:368px;height:491px;background:#FFFFFF;" version="1.1" viewBox="0 0 368 491" width="368px" zoomAndPan="magnify"><defs/><g><!--MD5=[9f28d9ceefe7f8f75626d41a5f5dcb24]
+class Center_Coordinator--><g id="elem_Center_Coordinator"><rect codeLine="4" fill="#F1F1F1" height="48" id="Center_Coordinator" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="74.5" y="7"/><ellipse cx="89.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M91.5,19.5 Q91.7031,19 91.9375,18.75 Q92.1719,18.5 92.4375,18.5 Q92.9063,18.5 93.2031,18.7813 Q93.5,19.0625 93.5,19.7188 L93.5,21.2813 Q93.5,21.9375 93.2188,22.2188 Q92.9375,22.5 92.5,22.5 Q92.1094,22.5 91.8594,22.3281 Q91.6094,22.1563 91.5,21.7031 Q91.4531,21.3906 91.2813,21.2188 Q90.9688,20.8906 90.4063,20.7031 Q89.8438,20.5 89.2813,20.5 Q88.5781,20.5 87.9844,20.7813 Q87.4063,21.0625 86.9531,21.6875 Q86.5,22.3125 86.5,23.1719 L86.5,24.0938 Q86.5,25.125 87.3438,25.8125 Q88.1875,26.5 89.6875,26.5 Q90.5781,26.5 91.2031,26.2969 Q91.5625,26.1875 91.9688,25.8281 Q92.2344,25.625 92.375,25.5625 Q92.5156,25.5 92.6875,25.5 Q93.0156,25.5 93.25,25.7656 Q93.5,26.0156 93.5,26.375 Q93.5,26.7188 93.1563,27.125 Q92.6563,27.7188 91.8594,28.0469 Q90.8125,28.5 89.5313,28.5 Q88.0313,28.5 86.8281,27.9063 Q85.8594,27.4375 85.1719,26.4219 Q84.5,25.4063 84.5,24.2031 L84.5,23.1094 Q84.5,21.8594 85.0938,20.7656 Q85.7031,19.6719 86.75,19.0938 Q87.8125,18.5 89,18.5 Q89.7188,18.5 90.3438,18.75 Q90.9688,19 91.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="103.5" y="28.7285">Center_Coordinator</text><line style="stroke:#181818;stroke-width:0.5;" x1="75.5" x2="231.5" y1="39" y2="39"/><line style="stroke:#181818;stroke-width:0.5;" x1="75.5" x2="231.5" y1="47" y2="47"/></g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><g id="elem_Company"><rect codeLine="6" fill="#F1F1F1" height="65.6094" id="Company" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="7" y="409.5"/><ellipse cx="25.15" cy="425.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M27.15,422 Q27.3531,421.5 27.5875,421.25 Q27.8219,421 28.0875,421 Q28.5563,421 28.8531,421.2813 Q29.15,421.5625 29.15,422.2188 L29.15,423.7813 Q29.15,424.4375 28.8688,424.7188 Q28.5875,425 28.15,425 Q27.7594,425 27.5094,424.8281 Q27.2594,424.6563 27.15,424.2031 Q27.1031,423.8906 26.9313,423.7188 Q26.6188,423.3906 26.0563,423.2031 Q25.4938,423 24.9313,423 Q24.2281,423 23.6344,423.2813 Q23.0563,423.5625 22.6031,424.1875 Q22.15,424.8125 22.15,425.6719 L22.15,426.5938 Q22.15,427.625 22.9938,428.3125 Q23.8375,429 25.3375,429 Q26.2281,429 26.8531,428.7969 Q27.2125,428.6875 27.6188,428.3281 Q27.8844,428.125 28.025,428.0625 Q28.1656,428 28.3375,428 Q28.6656,428 28.9,428.2656 Q29.15,428.5156 29.15,428.875 Q29.15,429.2188 28.8063,429.625 Q28.3063,430.2188 27.5094,430.5469 Q26.4625,431 25.1813,431 Q23.6813,431 22.4781,430.4063 Q21.5094,429.9375 20.8219,428.9219 Q20.15,427.9063 20.15,426.7031 L20.15,425.6094 Q20.15,424.3594 20.7438,423.2656 Q21.3531,422.1719 22.4,421.5938 Q23.4625,421 24.65,421 Q25.3688,421 25.9938,421.25 Q26.6188,421.5 27.15,422 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="39.85" y="431.2285">Company</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="105" y1="441.5" y2="441.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="449.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="27" y="460.0332">designation</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="105" y1="467.1094" y2="467.1094"/></g><!--MD5=[51e88c55a4aed7b6ae3c40b4a61cc39c]
+class ExportVaccinatedDailyUI--><g id="elem_ExportVaccinatedDailyUI"><rect codeLine="10" fill="#F1F1F1" height="48" id="ExportVaccinatedDailyUI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="185" x="61" y="115"/><ellipse cx="76" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M78,127.5 Q78.2031,127 78.4375,126.75 Q78.6719,126.5 78.9375,126.5 Q79.4063,126.5 79.7031,126.7813 Q80,127.0625 80,127.7188 L80,129.2813 Q80,129.9375 79.7188,130.2188 Q79.4375,130.5 79,130.5 Q78.6094,130.5 78.3594,130.3281 Q78.1094,130.1563 78,129.7031 Q77.9531,129.3906 77.7813,129.2188 Q77.4688,128.8906 76.9063,128.7031 Q76.3438,128.5 75.7813,128.5 Q75.0781,128.5 74.4844,128.7813 Q73.9063,129.0625 73.4531,129.6875 Q73,130.3125 73,131.1719 L73,132.0938 Q73,133.125 73.8438,133.8125 Q74.6875,134.5 76.1875,134.5 Q77.0781,134.5 77.7031,134.2969 Q78.0625,134.1875 78.4688,133.8281 Q78.7344,133.625 78.875,133.5625 Q79.0156,133.5 79.1875,133.5 Q79.5156,133.5 79.75,133.7656 Q80,134.0156 80,134.375 Q80,134.7188 79.6563,135.125 Q79.1563,135.7188 78.3594,136.0469 Q77.3125,136.5 76.0313,136.5 Q74.5313,136.5 73.3281,135.9063 Q72.3594,135.4375 71.6719,134.4219 Q71,133.4063 71,132.2031 L71,131.1094 Q71,129.8594 71.5938,128.7656 Q72.2031,127.6719 73.25,127.0938 Q74.3125,126.5 75.5,126.5 Q76.2188,126.5 76.8438,126.75 Q77.4688,127 78,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="90" y="136.7285">ExportVaccinatedDailyUI</text><line style="stroke:#181818;stroke-width:0.5;" x1="62" x2="245" y1="147" y2="147"/><line style="stroke:#181818;stroke-width:0.5;" x1="62" x2="245" y1="155" y2="155"/></g><!--MD5=[0c4f8d68bf44ea14d8309640ae1c3383]
+class ExportCtrl--><g id="elem_ExportCtrl"><rect codeLine="13" fill="#F1F1F1" height="118.4375" id="ExportCtrl" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="237" x="35" y="223"/><ellipse cx="118.25" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M120.25,235.5 Q120.4531,235 120.6875,234.75 Q120.9219,234.5 121.1875,234.5 Q121.6563,234.5 121.9531,234.7813 Q122.25,235.0625 122.25,235.7188 L122.25,237.2813 Q122.25,237.9375 121.9688,238.2188 Q121.6875,238.5 121.25,238.5 Q120.8594,238.5 120.6094,238.3281 Q120.3594,238.1563 120.25,237.7031 Q120.2031,237.3906 120.0313,237.2188 Q119.7188,236.8906 119.1563,236.7031 Q118.5938,236.5 118.0313,236.5 Q117.3281,236.5 116.7344,236.7813 Q116.1563,237.0625 115.7031,237.6875 Q115.25,238.3125 115.25,239.1719 L115.25,240.0938 Q115.25,241.125 116.0938,241.8125 Q116.9375,242.5 118.4375,242.5 Q119.3281,242.5 119.9531,242.2969 Q120.3125,242.1875 120.7188,241.8281 Q120.9844,241.625 121.125,241.5625 Q121.2656,241.5 121.4375,241.5 Q121.7656,241.5 122,241.7656 Q122.25,242.0156 122.25,242.375 Q122.25,242.7188 121.9063,243.125 Q121.4063,243.7188 120.6094,244.0469 Q119.5625,244.5 118.2813,244.5 Q116.7813,244.5 115.5781,243.9063 Q114.6094,243.4375 113.9219,242.4219 Q113.25,241.4063 113.25,240.2031 L113.25,239.1094 Q113.25,237.8594 113.8438,236.7656 Q114.4531,235.6719 115.5,235.0938 Q116.5625,234.5 117.75,234.5 Q118.4688,234.5 119.0938,234.75 Q119.7188,235 120.25,235.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="138.75" y="244.7285">ExportCtrl</text><line style="stroke:#181818;stroke-width:0.5;" x1="36" x2="271" y1="255" y2="255"/><line style="stroke:#181818;stroke-width:0.5;" x1="36" x2="271" y1="263" y2="263"/><ellipse cx="46" cy="274" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="55" y="281.5332">ExportCtrl()</text><ellipse cx="46" cy="291.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="55" y="299.1426">checkFileName()</text><ellipse cx="46" cy="309.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="55" y="316.752">nameToPath(String fileName)</text><ellipse cx="46" cy="326.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211" x="55" y="334.3613">export(String date1, String date2)</text></g><!--MD5=[08943d1e6e73940ea7786e0f41e252ee]
+class ExportStatistics--><g id="elem_ExportStatistics"><rect codeLine="20" fill="#F1F1F1" height="83.2188" id="ExportStatistics" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="220" x="141.5" y="401"/><ellipse cx="199.25" cy="417" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M201.25,413.5 Q201.4531,413 201.6875,412.75 Q201.9219,412.5 202.1875,412.5 Q202.6563,412.5 202.9531,412.7813 Q203.25,413.0625 203.25,413.7188 L203.25,415.2813 Q203.25,415.9375 202.9688,416.2188 Q202.6875,416.5 202.25,416.5 Q201.8594,416.5 201.6094,416.3281 Q201.3594,416.1563 201.25,415.7031 Q201.2031,415.3906 201.0313,415.2188 Q200.7188,414.8906 200.1563,414.7031 Q199.5938,414.5 199.0313,414.5 Q198.3281,414.5 197.7344,414.7813 Q197.1563,415.0625 196.7031,415.6875 Q196.25,416.3125 196.25,417.1719 L196.25,418.0938 Q196.25,419.125 197.0938,419.8125 Q197.9375,420.5 199.4375,420.5 Q200.3281,420.5 200.9531,420.2969 Q201.3125,420.1875 201.7188,419.8281 Q201.9844,419.625 202.125,419.5625 Q202.2656,419.5 202.4375,419.5 Q202.7656,419.5 203,419.7656 Q203.25,420.0156 203.25,420.375 Q203.25,420.7188 202.9063,421.125 Q202.4063,421.7188 201.6094,422.0469 Q200.5625,422.5 199.2813,422.5 Q197.7813,422.5 196.5781,421.9063 Q195.6094,421.4375 194.9219,420.4219 Q194.25,419.4063 194.25,418.2031 L194.25,417.1094 Q194.25,415.8594 194.8438,414.7656 Q195.4531,413.6719 196.5,413.0938 Q197.5625,412.5 198.75,412.5 Q199.4688,412.5 200.0938,412.75 Q200.7188,413 201.25,413.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="219.75" y="422.7285">ExportStatistics</text><line style="stroke:#181818;stroke-width:0.5;" x1="142.5" x2="360.5" y1="433" y2="433"/><line style="stroke:#181818;stroke-width:0.5;" x1="142.5" x2="360.5" y1="441" y2="441"/><ellipse cx="152.5" cy="452" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="161.5" y="459.5332">ExportStatistics(String filePath)</text><ellipse cx="152.5" cy="469.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="161.5" y="477.1426">checkFileName()</text></g><!--MD5=[deb38c02993b436911f966751beeb745]
+link ExportVaccinatedDailyUI to ExportCtrl--><g id="link_ExportVaccinatedDailyUI_ExportCtrl"><path codeLine="25" d="M153.5,163.28 C153.5,178.15 153.5,198.21 153.5,217.56 " fill="none" id="ExportVaccinatedDailyUI-to-ExportCtrl" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="153.5,222.99,157.5,213.99,153.5,217.99,149.5,213.99,153.5,222.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9d44fd4af3c291db8035a38e9528ae7c]
+link ExportCtrl to Company--><g id="link_ExportCtrl_Company"><path codeLine="26" d="M117.93,341.12 C104.97,362.3 90.68,385.64 79.15,404.49 " fill="none" id="ExportCtrl-to-Company" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="76.28,409.18,84.3983,403.6039,78.8965,404.9193,77.5811,399.4175,76.28,409.18" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4e7ac791b185975cb6f1ac834dff8ecb]
+link ExportCtrl to ExportStatistics--><g id="link_ExportCtrl_ExportStatistics"><path codeLine="27" d="M189.44,341.12 C200.72,359.36 212.99,379.22 223.63,396.42 " fill="none" id="ExportCtrl-to-ExportStatistics" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="226.29,400.73,224.9505,390.9727,223.6567,396.4796,218.1498,395.1859,226.29,400.73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cce69259434705216232ccc9d5b5c11e]
+link Center_Coordinator to ExportVaccinatedDailyUI--><g id="link_Center_Coordinator_ExportVaccinatedDailyUI"><path codeLine="28" d="M153.5,55 C153.5,71 153.5,92.45 153.5,109.53 " fill="none" id="Center_Coordinator-to-ExportVaccinatedDailyUI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="153.5,114.68,157.5,105.68,153.5,109.68,149.5,105.68,153.5,114.68" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1702a3ababa1f555dc65efc21869def5]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class Center_Coordinator{
+}
+class Company{
+-designation
+}
+
+class ExportVaccinatedDailyUI{
+}
+
+class ExportCtrl{
++ExportCtrl()
++checkFileName()
++nameToPath(String fileName)
++export(String date1, String date2)
+}
+
+class ExportStatistics{
++ExportStatistics(String filePath)
++checkFileName()
+}
+
+ExportVaccinatedDailyUI - -> ExportCtrl
+ExportCtrl - -> Company
+ExportCtrl - -> ExportStatistics
+Center_Coordinator - -> ExportVaccinatedDailyUI
+
+@enduml
+
+@startuml
+
+
+class Center_Coordinator{
+}
+class Company{
+-designation
+}
+
+class ExportVaccinatedDailyUI{
+}
+
+class ExportCtrl{
++ExportCtrl()
++checkFileName()
++nameToPath(String fileName)
++export(String date1, String date2)
+}
+
+class ExportStatistics{
++ExportStatistics(String filePath)
++checkFileName()
+}
+
+ExportVaccinatedDailyUI - -> ExportCtrl
+ExportCtrl - -> Company
+ExportCtrl - -> ExportStatistics
+Center_Coordinator - -> ExportVaccinatedDailyUI
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

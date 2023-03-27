@@ -1,0 +1,90 @@
+//ADICIONAR ROLE
+@startuml
+autonumber
+actor "Administrator" as ADM
+participant ":EmployeeUI" as UI
+participant ":EmployeeController" as ctrl
+participant ":Company" as comp
+participant ":Password" as pass
+participant ":EmployeeStore" as store
+participant ":Employee" as emp
+participant ":Email" as mail
+participant ":AuthFacade" as auth
+participant ":UserRoleStore" as roles
+participant ":UserStore" as users
+activate ADM
+ADM -> UI : starts registiring a new employee
+activate UI
+UI -> ctrl : getEmployeeRoleList()
+ctrl -> comp : employeeRoles = getEmployeeRoleList()
+activate comp
+deactivate comp
+UI --> ADM : asks to select a role
+deactivate UI
+ADM -> UI : selects a role
+activate UI
+UI --> ADM : requests employee's information
+deactivate UI
+ADM -> UI : types employee's information
+activate UI
+UI -> pass** : pwd = create
+UI --> ADM : shows employee's information (including new password) and requests confirmation
+deactivate UI
+ADM -> UI :confirms the data
+activate UI
+UI -> ctrl : createEmployee(address, name, phoneNumber, id, email, cc)
+activate ctrl
+ctrl -> comp : employeeStore = getEmployeeStore()
+activate comp
+deactivate comp
+ctrl -> store : employee = createEmployee(address, name, phoneNumber, id, email, cc)
+activate store
+store --> emp** : create(address, name, phoneNumber, id, email, cc)
+deactivate store
+activate emp
+emp -->mail** : create(email)
+deactivate emp
+ctrl -> store : validateEmployee(employee)
+activate store
+ctrl -> store : saveEmployee(employee)
+deactivate ctrl
+store -> store : employeeExists(employee)
+activate store
+deactivate store
+store -> store : addEmployee(employee)
+activate store
+deactivate store
+deactivate store
+UI -> ctrl : addUserWithRole(name, email, roleId, pwd)
+activate ctrl
+ctrl -> comp : auth = getAuthFacade()
+activate comp
+deactivate comp
+ctrl -> auth : addUserWithRole(name, email, roleId, pwd)
+activate auth
+auth -> roles : getById(roleId)
+activate roles
+roles -> roles : add(roleId)
+activate roles
+deactivate roles
+deactivate roles
+auth -> users : user = create(name, email, pwd)
+activate users
+users -> users : exists(user)
+activate users
+deactivate users
+users -> users : add(user)
+activate users
+deactivate users
+deactivate users
+deactivate auth
+deactivate ctrl
+UI --> ADM : confirms that the employee has been registered successfully
+deactivate UI
+deactivate ADM
+
+
+@enduml
+
+
+

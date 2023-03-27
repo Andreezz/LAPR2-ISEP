@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="916px" preserveAspectRatio="none" style="width:582px;height:916px;background:#FFFFFF;" version="1.1" viewBox="0 0 582 916" width="582px" zoomAndPan="magnify"><defs/><g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><g id="elem_Company"><rect codeLine="4" fill="#F1F1F1" height="83.2188" id="Company" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165" x="140.5" y="329"/><ellipse cx="188.75" cy="345" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M190.75,341.5 Q190.9531,341 191.1875,340.75 Q191.4219,340.5 191.6875,340.5 Q192.1563,340.5 192.4531,340.7813 Q192.75,341.0625 192.75,341.7188 L192.75,343.2813 Q192.75,343.9375 192.4688,344.2188 Q192.1875,344.5 191.75,344.5 Q191.3594,344.5 191.1094,344.3281 Q190.8594,344.1563 190.75,343.7031 Q190.7031,343.3906 190.5313,343.2188 Q190.2188,342.8906 189.6563,342.7031 Q189.0938,342.5 188.5313,342.5 Q187.8281,342.5 187.2344,342.7813 Q186.6563,343.0625 186.2031,343.6875 Q185.75,344.3125 185.75,345.1719 L185.75,346.0938 Q185.75,347.125 186.5938,347.8125 Q187.4375,348.5 188.9375,348.5 Q189.8281,348.5 190.4531,348.2969 Q190.8125,348.1875 191.2188,347.8281 Q191.4844,347.625 191.625,347.5625 Q191.7656,347.5 191.9375,347.5 Q192.2656,347.5 192.5,347.7656 Q192.75,348.0156 192.75,348.375 Q192.75,348.7188 192.4063,349.125 Q191.9063,349.7188 191.1094,350.0469 Q190.0625,350.5 188.7813,350.5 Q187.2813,350.5 186.0781,349.9063 Q185.1094,349.4375 184.4219,348.4219 Q183.75,347.4063 183.75,346.2031 L183.75,345.1094 Q183.75,343.8594 184.3438,342.7656 Q184.9531,341.6719 186,341.0938 Q187.0625,340.5 188.25,340.5 Q188.9688,340.5 189.5938,340.75 Q190.2188,341 190.75,341.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="209.25" y="350.7285">Company</text><line style="stroke:#181818;stroke-width:0.5;" x1="141.5" x2="304.5" y1="361" y2="361"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="148.5" y="369"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="160.5" y="379.5332">designation</text><line style="stroke:#181818;stroke-width:0.5;" x1="141.5" x2="304.5" y1="386.6094" y2="386.6094"/><ellipse cx="151.5" cy="397.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="160.5" y="405.1426">getScheduleVaccine()</text></g><!--MD5=[b2e86da990ee9e769b8776cd15ea5c5f]
+class ScheduleVaccineUI--><g id="elem_ScheduleVaccineUI"><rect codeLine="10" fill="#F1F1F1" height="48" id="ScheduleVaccineUI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="282.5" y="7"/><ellipse cx="297.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M299.5,19.5 Q299.7031,19 299.9375,18.75 Q300.1719,18.5 300.4375,18.5 Q300.9063,18.5 301.2031,18.7813 Q301.5,19.0625 301.5,19.7188 L301.5,21.2813 Q301.5,21.9375 301.2188,22.2188 Q300.9375,22.5 300.5,22.5 Q300.1094,22.5 299.8594,22.3281 Q299.6094,22.1563 299.5,21.7031 Q299.4531,21.3906 299.2813,21.2188 Q298.9688,20.8906 298.4063,20.7031 Q297.8438,20.5 297.2813,20.5 Q296.5781,20.5 295.9844,20.7813 Q295.4063,21.0625 294.9531,21.6875 Q294.5,22.3125 294.5,23.1719 L294.5,24.0938 Q294.5,25.125 295.3438,25.8125 Q296.1875,26.5 297.6875,26.5 Q298.5781,26.5 299.2031,26.2969 Q299.5625,26.1875 299.9688,25.8281 Q300.2344,25.625 300.375,25.5625 Q300.5156,25.5 300.6875,25.5 Q301.0156,25.5 301.25,25.7656 Q301.5,26.0156 301.5,26.375 Q301.5,26.7188 301.1563,27.125 Q300.6563,27.7188 299.8594,28.0469 Q298.8125,28.5 297.5313,28.5 Q296.0313,28.5 294.8281,27.9063 Q293.8594,27.4375 293.1719,26.4219 Q292.5,25.4063 292.5,24.2031 L292.5,23.1094 Q292.5,21.8594 293.0938,20.7656 Q293.7031,19.6719 294.75,19.0938 Q295.8125,18.5 297,18.5 Q297.7188,18.5 298.3438,18.75 Q298.9688,19 299.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="311.5" y="28.7285">ScheduleVaccineUI</text><line style="stroke:#181818;stroke-width:0.5;" x1="283.5" x2="434.5" y1="39" y2="39"/><line style="stroke:#181818;stroke-width:0.5;" x1="283.5" x2="434.5" y1="47" y2="47"/></g><!--MD5=[f6c4ddcb8ab0ba42ee4498672e538bba]
+class ScheduleVaccineController--><g id="elem_ScheduleVaccineController"><rect codeLine="13" fill="#F1F1F1" height="153.6563" id="ScheduleVaccineController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="432" x="143" y="115"/><ellipse cx="269.25" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M271.25,127.5 Q271.4531,127 271.6875,126.75 Q271.9219,126.5 272.1875,126.5 Q272.6563,126.5 272.9531,126.7813 Q273.25,127.0625 273.25,127.7188 L273.25,129.2813 Q273.25,129.9375 272.9688,130.2188 Q272.6875,130.5 272.25,130.5 Q271.8594,130.5 271.6094,130.3281 Q271.3594,130.1563 271.25,129.7031 Q271.2031,129.3906 271.0313,129.2188 Q270.7188,128.8906 270.1563,128.7031 Q269.5938,128.5 269.0313,128.5 Q268.3281,128.5 267.7344,128.7813 Q267.1563,129.0625 266.7031,129.6875 Q266.25,130.3125 266.25,131.1719 L266.25,132.0938 Q266.25,133.125 267.0938,133.8125 Q267.9375,134.5 269.4375,134.5 Q270.3281,134.5 270.9531,134.2969 Q271.3125,134.1875 271.7188,133.8281 Q271.9844,133.625 272.125,133.5625 Q272.2656,133.5 272.4375,133.5 Q272.7656,133.5 273,133.7656 Q273.25,134.0156 273.25,134.375 Q273.25,134.7188 272.9063,135.125 Q272.4063,135.7188 271.6094,136.0469 Q270.5625,136.5 269.2813,136.5 Q267.7813,136.5 266.5781,135.9063 Q265.6094,135.4375 264.9219,134.4219 Q264.25,133.4063 264.25,132.2031 L264.25,131.1094 Q264.25,129.8594 264.8438,128.7656 Q265.4531,127.6719 266.5,127.0938 Q267.5625,126.5 268.75,126.5 Q269.4688,126.5 270.0938,126.75 Q270.7188,127 271.25,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="289.75" y="136.7285">ScheduleVaccineController</text><line style="stroke:#181818;stroke-width:0.5;" x1="144" x2="574" y1="147" y2="147"/><line style="stroke:#181818;stroke-width:0.5;" x1="144" x2="574" y1="155" y2="155"/><ellipse cx="154" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="163" y="173.5332">ScheduleVaccineController()</text><ellipse cx="154" cy="183.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="406" x="163" y="191.1426">create(number, age, gender, vaccine, date, hours, NameCenter)</text><ellipse cx="154" cy="201.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="163" y="208.752">ClearSchedule()</text><ellipse cx="154" cy="218.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="163" y="226.3613">getScheduleVaccineList()</text><ellipse cx="154" cy="236.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="163" y="243.9707">getToString()</text><ellipse cx="154" cy="254.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="163" y="261.5801">saveScheduleVaccine(schedule)</text></g><!--MD5=[dddfbbf04cd811976a8d1b68c187d8cc]
+class ScheduleVaccineStore--><g id="elem_ScheduleVaccineStore"><rect codeLine="22" fill="#F1F1F1" height="188.875" id="ScheduleVaccineStore" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="432" x="7" y="472"/><ellipse cx="147.25" cy="488" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M149.25,484.5 Q149.4531,484 149.6875,483.75 Q149.9219,483.5 150.1875,483.5 Q150.6563,483.5 150.9531,483.7813 Q151.25,484.0625 151.25,484.7188 L151.25,486.2813 Q151.25,486.9375 150.9688,487.2188 Q150.6875,487.5 150.25,487.5 Q149.8594,487.5 149.6094,487.3281 Q149.3594,487.1563 149.25,486.7031 Q149.2031,486.3906 149.0313,486.2188 Q148.7188,485.8906 148.1563,485.7031 Q147.5938,485.5 147.0313,485.5 Q146.3281,485.5 145.7344,485.7813 Q145.1563,486.0625 144.7031,486.6875 Q144.25,487.3125 144.25,488.1719 L144.25,489.0938 Q144.25,490.125 145.0938,490.8125 Q145.9375,491.5 147.4375,491.5 Q148.3281,491.5 148.9531,491.2969 Q149.3125,491.1875 149.7188,490.8281 Q149.9844,490.625 150.125,490.5625 Q150.2656,490.5 150.4375,490.5 Q150.7656,490.5 151,490.7656 Q151.25,491.0156 151.25,491.375 Q151.25,491.7188 150.9063,492.125 Q150.4063,492.7188 149.6094,493.0469 Q148.5625,493.5 147.2813,493.5 Q145.7813,493.5 144.5781,492.9063 Q143.6094,492.4375 142.9219,491.4219 Q142.25,490.4063 142.25,489.2031 L142.25,488.1094 Q142.25,486.8594 142.8438,485.7656 Q143.4531,484.6719 144.5,484.0938 Q145.5625,483.5 146.75,483.5 Q147.4688,483.5 148.0938,483.75 Q148.7188,484 149.25,484.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="167.75" y="493.7285">ScheduleVaccineStore</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="438" y1="504" y2="504"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="438" y1="512" y2="512"/><ellipse cx="18" cy="523" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="406" x="27" y="530.5332">create(number, age, gender, vaccine, date, hours, NameCenter)</text><ellipse cx="18" cy="540.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="304" x="27" y="548.1426">existsSchedule(snsNum, vaccCenter, date, time)</text><ellipse cx="18" cy="558.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="27" y="565.752">getScheduleVaccineList()</text><ellipse cx="18" cy="575.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="27" y="583.3613">clearSchedules()</text><ellipse cx="18" cy="593.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="27" y="600.9707">getScheduleVaccineinfo()</text><ellipse cx="18" cy="611.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="27" y="618.5801">getSchedulevaccine()</text><ellipse cx="18" cy="628.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="27" y="636.1895">contains()</text><ellipse cx="18" cy="646.2656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="27" y="653.7988">saveNewScheduleVaccine()</text></g><!--MD5=[8d21a970f1bd1e0e0584d0ecf91221be]
+class ScheduleVaccine--><g id="elem_ScheduleVaccine"><rect codeLine="33" fill="#F1F1F1" height="188.875" id="ScheduleVaccine" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="286.5" y="721"/><ellipse cx="301.5" cy="737" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M303.5,733.5 Q303.7031,733 303.9375,732.75 Q304.1719,732.5 304.4375,732.5 Q304.9063,732.5 305.2031,732.7813 Q305.5,733.0625 305.5,733.7188 L305.5,735.2813 Q305.5,735.9375 305.2188,736.2188 Q304.9375,736.5 304.5,736.5 Q304.1094,736.5 303.8594,736.3281 Q303.6094,736.1563 303.5,735.7031 Q303.4531,735.3906 303.2813,735.2188 Q302.9688,734.8906 302.4063,734.7031 Q301.8438,734.5 301.2813,734.5 Q300.5781,734.5 299.9844,734.7813 Q299.4063,735.0625 298.9531,735.6875 Q298.5,736.3125 298.5,737.1719 L298.5,738.0938 Q298.5,739.125 299.3438,739.8125 Q300.1875,740.5 301.6875,740.5 Q302.5781,740.5 303.2031,740.2969 Q303.5625,740.1875 303.9688,739.8281 Q304.2344,739.625 304.375,739.5625 Q304.5156,739.5 304.6875,739.5 Q305.0156,739.5 305.25,739.7656 Q305.5,740.0156 305.5,740.375 Q305.5,740.7188 305.1563,741.125 Q304.6563,741.7188 303.8594,742.0469 Q302.8125,742.5 301.5313,742.5 Q300.0313,742.5 298.8281,741.9063 Q297.8594,741.4375 297.1719,740.4219 Q296.5,739.4063 296.5,738.2031 L296.5,737.1094 Q296.5,735.8594 297.0938,734.7656 Q297.7031,733.6719 298.75,733.0938 Q299.8125,732.5 301,732.5 Q301.7188,732.5 302.3438,732.75 Q302.9688,733 303.5,733.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="315.5" y="742.7285">ScheduleVaccine</text><line style="stroke:#181818;stroke-width:0.5;" x1="287.5" x2="426.5" y1="753" y2="753"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="294.5" y="761"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="306.5" y="771.5332">number</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="294.5" y="778.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="306.5" y="789.1426">age</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="294.5" y="796.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="306.5" y="806.752">gender</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="294.5" y="813.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="306.5" y="824.3613">vaccine</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="294.5" y="831.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="306.5" y="841.9707">date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="294.5" y="849.0469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="306.5" y="859.5801">hours</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="294.5" y="866.6563"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="306.5" y="877.1895">NameCenter</text><line style="stroke:#181818;stroke-width:0.5;" x1="287.5" x2="426.5" y1="884.2656" y2="884.2656"/><ellipse cx="297.5" cy="895.2656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="306.5" y="902.7988">toString()</text></g><!--MD5=[77f394cc6139a22c0e019720b3e71c2a]
+link ScheduleVaccineUI to ScheduleVaccineController--><g id="link_ScheduleVaccineUI_ScheduleVaccineController"><path codeLine="45" d="M359,55.12 C359,69.73 359,89.57 359,109.58 " fill="none" id="ScheduleVaccineUI-to-ScheduleVaccineController" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="359,114.67,363,105.67,359,109.67,355,105.67,359,114.67" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[db2a7a64eac7f92e6334ba110bbdde2d]
+link ScheduleVaccineController to Company--><g id="link_ScheduleVaccineController_Company"><path codeLine="46" d="M300.34,269.13 C285.76,288.05 270.59,307.73 257.59,324.6 " fill="none" id="ScheduleVaccineController-to-Company" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="254.34,328.83,262.9995,324.1382,257.3899,324.8679,256.6602,319.2583,254.34,328.83" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[52ae4d8a6b0a2770e74afc7d92a6c1a2]
+link Company to ScheduleVaccineStore--><g id="link_Company_ScheduleVaccineStore"><path codeLine="47" d="M223,412.17 C223,428.11 223,447.17 223,466.33 " fill="none" id="Company-to-ScheduleVaccineStore" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="223,471.74,227,462.74,223,466.74,219,462.74,223,471.74" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ae079024cf27d29372468b55c046dba2]
+link ScheduleVaccineStore to ScheduleVaccine--><g id="link_ScheduleVaccineStore_ScheduleVaccine"><path codeLine="48" d="M273.85,661.23 C283.61,679.22 293.86,698.11 303.69,716.24 " fill="none" id="ScheduleVaccineStore-to-ScheduleVaccine" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="306.18,720.83,305.4065,711.0116,303.7967,716.4345,298.3738,714.8248,306.18,720.83" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fb3bcdf2c7f97dffb71eafbed7adc4ab]
+link ScheduleVaccineController to ScheduleVaccine--><g id="link_ScheduleVaccineController_ScheduleVaccine"><path codeLine="49" d="M397.61,269.33 C439.67,362.75 495.97,525.29 456,661 C450.18,680.77 440.93,700.4 430.37,718.68 " fill="none" id="ScheduleVaccineController-to-ScheduleVaccine" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="427.66,723.29,435.6618,717.5479,430.1882,718.9763,428.7599,713.5027,427.66,723.29" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7fb82480beeedc342310d211e5a51cbd]
+link ScheduleVaccineController to ScheduleVaccineStore--><g id="link_ScheduleVaccineController_ScheduleVaccineStore"><path codeLine="50" d="M354.27,269.03 C349.7,312.13 340.7,366.38 323,412 C315.73,430.72 305.97,449.55 295.38,467.29 " fill="none" id="ScheduleVaccineController-to-ScheduleVaccineStore" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="292.67,471.78,300.7443,466.1403,295.253,467.4988,293.8944,462.0075,292.67,471.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[602e9567342b5694a073202cdd1e9cbd]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Company{
+-designation
+
++getScheduleVaccine()
+}
+
+class ScheduleVaccineUI {
+}
+
+class ScheduleVaccineController {
++ScheduleVaccineController()
++create(number, age, gender, vaccine, date, hours, NameCenter)
++ClearSchedule()
++getScheduleVaccineList()
++getToString()
++saveScheduleVaccine(schedule)
+}
+
+class ScheduleVaccineStore {
++create(number, age, gender, vaccine, date, hours, NameCenter)
++existsSchedule(snsNum, vaccCenter, date, time)
++getScheduleVaccineList()
++clearSchedules()
++getScheduleVaccineinfo()
++getSchedulevaccine()
++contains()
++saveNewScheduleVaccine()
+}
+
+class ScheduleVaccine {
+-number
+-age
+-gender
+-vaccine
+-date
+-hours
+-NameCenter
+
++toString()
+}
+
+ScheduleVaccineUI  - -> ScheduleVaccineController
+ScheduleVaccineController - -> Company
+Company - -> ScheduleVaccineStore
+ScheduleVaccineStore - -> ScheduleVaccine
+ScheduleVaccineController - -> ScheduleVaccine
+ScheduleVaccineController - -> ScheduleVaccineStore
+
+@enduml
+
+@startuml
+
+
+class Company{
+-designation
+
++getScheduleVaccine()
+}
+
+class ScheduleVaccineUI {
+}
+
+class ScheduleVaccineController {
++ScheduleVaccineController()
++create(number, age, gender, vaccine, date, hours, NameCenter)
++ClearSchedule()
++getScheduleVaccineList()
++getToString()
++saveScheduleVaccine(schedule)
+}
+
+class ScheduleVaccineStore {
++create(number, age, gender, vaccine, date, hours, NameCenter)
++existsSchedule(snsNum, vaccCenter, date, time)
++getScheduleVaccineList()
++clearSchedules()
++getScheduleVaccineinfo()
++getSchedulevaccine()
++contains()
++saveNewScheduleVaccine()
+}
+
+class ScheduleVaccine {
+-number
+-age
+-gender
+-vaccine
+-date
+-hours
+-NameCenter
+
++toString()
+}
+
+ScheduleVaccineUI  - -> ScheduleVaccineController
+ScheduleVaccineController - -> Company
+Company - -> ScheduleVaccineStore
+ScheduleVaccineStore - -> ScheduleVaccine
+ScheduleVaccineController - -> ScheduleVaccine
+ScheduleVaccineController - -> ScheduleVaccineStore
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

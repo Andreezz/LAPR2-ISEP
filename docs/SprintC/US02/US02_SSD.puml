@@ -1,0 +1,32 @@
+@startuml
+autonumber
+actor "Recepcionist" as RPT
+activate RPT
+
+RPT -> ":System" : Starts a schedule Vaccine
+
+activate ":System"
+":System" --> RPT : Request Data (number, age, gender, vaccine, date, hours, NameCenter)
+deactivate ":System"
+
+RPT -> ":System" : Types requested data
+
+activate ":System"
+":System" --> RPT : Shows the data and request confirmation
+deactivate ":System"
+
+RPT -> ":System" : types information
+
+activate ":System"
+":System" --> RPT : shows info and asks if it is correct
+deactivate ":System"
+
+":System" -> "RPT" : confirms that the information is correct
+
+activate ":System"
+":System" --> RPT : system will confirm that the Schedule has been registered and will ask if user wants to exit
+deactivate ":System"
+RPT -> ":System" : decides to exit or to register another Schedule
+activate ":System"
+deactivate ":System"
+@enduml

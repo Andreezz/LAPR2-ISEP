@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="632px" preserveAspectRatio="none" style="width:1826px;height:632px;background:#FFFFFF;" version="1.1" viewBox="0 0 1826 632" width="1826px" zoomAndPan="magnify"><defs/><g><!--MD5=[7fe1121cfa15f40a9f585cf6f95cc274]
+class PerformanceAnalysisUI--><g id="elem_PerformanceAnalysisUI"><rect codeLine="3" fill="#F1F1F1" height="48" id="PerformanceAnalysisUI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="177" x="325.5" y="7"/><ellipse cx="340.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M342.5,19.5 Q342.7031,19 342.9375,18.75 Q343.1719,18.5 343.4375,18.5 Q343.9063,18.5 344.2031,18.7813 Q344.5,19.0625 344.5,19.7188 L344.5,21.2813 Q344.5,21.9375 344.2188,22.2188 Q343.9375,22.5 343.5,22.5 Q343.1094,22.5 342.8594,22.3281 Q342.6094,22.1563 342.5,21.7031 Q342.4531,21.3906 342.2813,21.2188 Q341.9688,20.8906 341.4063,20.7031 Q340.8438,20.5 340.2813,20.5 Q339.5781,20.5 338.9844,20.7813 Q338.4063,21.0625 337.9531,21.6875 Q337.5,22.3125 337.5,23.1719 L337.5,24.0938 Q337.5,25.125 338.3438,25.8125 Q339.1875,26.5 340.6875,26.5 Q341.5781,26.5 342.2031,26.2969 Q342.5625,26.1875 342.9688,25.8281 Q343.2344,25.625 343.375,25.5625 Q343.5156,25.5 343.6875,25.5 Q344.0156,25.5 344.25,25.7656 Q344.5,26.0156 344.5,26.375 Q344.5,26.7188 344.1563,27.125 Q343.6563,27.7188 342.8594,28.0469 Q341.8125,28.5 340.5313,28.5 Q339.0313,28.5 337.8281,27.9063 Q336.8594,27.4375 336.1719,26.4219 Q335.5,25.4063 335.5,24.2031 L335.5,23.1094 Q335.5,21.8594 336.0938,20.7656 Q336.7031,19.6719 337.75,19.0938 Q338.8125,18.5 340,18.5 Q340.7188,18.5 341.3438,18.75 Q341.9688,19 342.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="354.5" y="28.7285">PerformanceAnalysisUI</text><line style="stroke:#181818;stroke-width:0.5;" x1="326.5" x2="501.5" y1="39" y2="39"/><line style="stroke:#181818;stroke-width:0.5;" x1="326.5" x2="501.5" y1="47" y2="47"/></g><!--MD5=[de60e6d4f424ae4d0522096f76a59010]
+class VaccinationCenter--><g id="elem_VaccinationCenter"><rect codeLine="6" fill="#F1F1F1" height="65.6094" id="VaccinationCenter" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="148" x="7" y="390"/><ellipse cx="22" cy="406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M24,402.5 Q24.2031,402 24.4375,401.75 Q24.6719,401.5 24.9375,401.5 Q25.4063,401.5 25.7031,401.7813 Q26,402.0625 26,402.7188 L26,404.2813 Q26,404.9375 25.7188,405.2188 Q25.4375,405.5 25,405.5 Q24.6094,405.5 24.3594,405.3281 Q24.1094,405.1563 24,404.7031 Q23.9531,404.3906 23.7813,404.2188 Q23.4688,403.8906 22.9063,403.7031 Q22.3438,403.5 21.7813,403.5 Q21.0781,403.5 20.4844,403.7813 Q19.9063,404.0625 19.4531,404.6875 Q19,405.3125 19,406.1719 L19,407.0938 Q19,408.125 19.8438,408.8125 Q20.6875,409.5 22.1875,409.5 Q23.0781,409.5 23.7031,409.2969 Q24.0625,409.1875 24.4688,408.8281 Q24.7344,408.625 24.875,408.5625 Q25.0156,408.5 25.1875,408.5 Q25.5156,408.5 25.75,408.7656 Q26,409.0156 26,409.375 Q26,409.7188 25.6563,410.125 Q25.1563,410.7188 24.3594,411.0469 Q23.3125,411.5 22.0313,411.5 Q20.5313,411.5 19.3281,410.9063 Q18.3594,410.4375 17.6719,409.4219 Q17,408.4063 17,407.2031 L17,406.1094 Q17,404.8594 17.5938,403.7656 Q18.2031,402.6719 19.25,402.0938 Q20.3125,401.5 21.5,401.5 Q22.2188,401.5 22.8438,401.75 Q23.4688,402 24,402.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="36" y="411.7285">VaccinationCenter</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="154" y1="422" y2="422"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="154" y1="430" y2="430"/><ellipse cx="18" cy="441" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="27" y="448.5332">getArrivalStore()</text></g><!--MD5=[263adc2f0fe041d23a9bd79c57cd9798]
+class PerformanceAnalysisController--><g id="elem_PerformanceAnalysisController"><rect codeLine="10" fill="#F1F1F1" height="171.2656" id="PerformanceAnalysisController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="297" x="265.5" y="115"/><ellipse cx="312.25" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M314.25,127.5 Q314.4531,127 314.6875,126.75 Q314.9219,126.5 315.1875,126.5 Q315.6563,126.5 315.9531,126.7813 Q316.25,127.0625 316.25,127.7188 L316.25,129.2813 Q316.25,129.9375 315.9688,130.2188 Q315.6875,130.5 315.25,130.5 Q314.8594,130.5 314.6094,130.3281 Q314.3594,130.1563 314.25,129.7031 Q314.2031,129.3906 314.0313,129.2188 Q313.7188,128.8906 313.1563,128.7031 Q312.5938,128.5 312.0313,128.5 Q311.3281,128.5 310.7344,128.7813 Q310.1563,129.0625 309.7031,129.6875 Q309.25,130.3125 309.25,131.1719 L309.25,132.0938 Q309.25,133.125 310.0938,133.8125 Q310.9375,134.5 312.4375,134.5 Q313.3281,134.5 313.9531,134.2969 Q314.3125,134.1875 314.7188,133.8281 Q314.9844,133.625 315.125,133.5625 Q315.2656,133.5 315.4375,133.5 Q315.7656,133.5 316,133.7656 Q316.25,134.0156 316.25,134.375 Q316.25,134.7188 315.9063,135.125 Q315.4063,135.7188 314.6094,136.0469 Q313.5625,136.5 312.2813,136.5 Q310.7813,136.5 309.5781,135.9063 Q308.6094,135.4375 307.9219,134.4219 Q307.25,133.4063 307.25,132.2031 L307.25,131.1094 Q307.25,129.8594 307.8438,128.7656 Q308.4531,127.6719 309.5,127.0938 Q310.5625,126.5 311.75,126.5 Q312.4688,126.5 313.0938,126.75 Q313.7188,127 314.25,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="332.75" y="136.7285">PerformanceAnalysisController</text><line style="stroke:#181818;stroke-width:0.5;" x1="266.5" x2="561.5" y1="147" y2="147"/><line style="stroke:#181818;stroke-width:0.5;" x1="266.5" x2="561.5" y1="155" y2="155"/><ellipse cx="276.5" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="285.5" y="173.5332">getCenterDataDTO()</text><ellipse cx="276.5" cy="183.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="285.5" y="191.1426">getArrivalsDTO()</text><ellipse cx="276.5" cy="201.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="285.5" y="208.752">createList(date, time, cdDTO, arrivalsDTO)</text><ellipse cx="276.5" cy="218.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="285.5" y="226.3613">computeMaxSublist(inputLst, pe)</text><ellipse cx="276.5" cy="236.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="285.5" y="243.9707">getSublistSum(maxSublist)</text><ellipse cx="276.5" cy="254.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="285.5" y="261.5801">getSublistTimeInterval()</text><ellipse cx="276.5" cy="271.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="285.5" y="279.1895">getPerformanceEvaluator()</text></g><!--MD5=[e20e044c9750be76ae79fe869ed0281c]
+class PerformanceAnalysis--><g id="elem_PerformanceAnalysis"><rect codeLine="20" fill="#F1F1F1" height="153.6563" id="PerformanceAnalysis" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="392" x="531" y="346"/><ellipse cx="656.25" cy="362" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M658.25,358.5 Q658.4531,358 658.6875,357.75 Q658.9219,357.5 659.1875,357.5 Q659.6563,357.5 659.9531,357.7813 Q660.25,358.0625 660.25,358.7188 L660.25,360.2813 Q660.25,360.9375 659.9688,361.2188 Q659.6875,361.5 659.25,361.5 Q658.8594,361.5 658.6094,361.3281 Q658.3594,361.1563 658.25,360.7031 Q658.2031,360.3906 658.0313,360.2188 Q657.7188,359.8906 657.1563,359.7031 Q656.5938,359.5 656.0313,359.5 Q655.3281,359.5 654.7344,359.7813 Q654.1563,360.0625 653.7031,360.6875 Q653.25,361.3125 653.25,362.1719 L653.25,363.0938 Q653.25,364.125 654.0938,364.8125 Q654.9375,365.5 656.4375,365.5 Q657.3281,365.5 657.9531,365.2969 Q658.3125,365.1875 658.7188,364.8281 Q658.9844,364.625 659.125,364.5625 Q659.2656,364.5 659.4375,364.5 Q659.7656,364.5 660,364.7656 Q660.25,365.0156 660.25,365.375 Q660.25,365.7188 659.9063,366.125 Q659.4063,366.7188 658.6094,367.0469 Q657.5625,367.5 656.2813,367.5 Q654.7813,367.5 653.5781,366.9063 Q652.6094,366.4375 651.9219,365.4219 Q651.25,364.4063 651.25,363.2031 L651.25,362.1094 Q651.25,360.8594 651.8438,359.7656 Q652.4531,358.6719 653.5,358.0938 Q654.5625,357.5 655.75,357.5 Q656.4688,357.5 657.0938,357.75 Q657.7188,358 658.25,358.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="676.75" y="367.7285">PerformanceAnalysis</text><line style="stroke:#181818;stroke-width:0.5;" x1="532" x2="922" y1="378" y2="378"/><line style="stroke:#181818;stroke-width:0.5;" x1="532" x2="922" y1="386" y2="386"/><ellipse cx="542" cy="397" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="366" x="551" y="404.5332">difArrivalLeaving(date, time, lstData, cdDTO, arrivalsDTO)</text><ellipse cx="542" cy="414.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="551" y="422.1426">computeMaxSublist(inputLst, pe)</text><ellipse cx="542" cy="432.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="551" y="439.752">getSublistSum(maxSublist)</text><ellipse cx="542" cy="449.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="551" y="457.3613">getSublistTimeInterval()</text><ellipse cx="542" cy="467.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="279" x="551" y="474.9707">getListOfArrivals(date, cdDTO, arrivalsDTO)</text><ellipse cx="542" cy="485.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="551" y="492.5801">getListOfLeavings(date, cdDTO)</text></g><!--MD5=[95f7ea791dfb48e03d33342f76f838aa]
+class CenterDataStore--><g id="elem_CenterDataStore"><rect codeLine="29" fill="#F1F1F1" height="65.6094" id="CenterDataStore" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="262.5" y="560"/><ellipse cx="277.5" cy="576" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M279.5,572.5 Q279.7031,572 279.9375,571.75 Q280.1719,571.5 280.4375,571.5 Q280.9063,571.5 281.2031,571.7813 Q281.5,572.0625 281.5,572.7188 L281.5,574.2813 Q281.5,574.9375 281.2188,575.2188 Q280.9375,575.5 280.5,575.5 Q280.1094,575.5 279.8594,575.3281 Q279.6094,575.1563 279.5,574.7031 Q279.4531,574.3906 279.2813,574.2188 Q278.9688,573.8906 278.4063,573.7031 Q277.8438,573.5 277.2813,573.5 Q276.5781,573.5 275.9844,573.7813 Q275.4063,574.0625 274.9531,574.6875 Q274.5,575.3125 274.5,576.1719 L274.5,577.0938 Q274.5,578.125 275.3438,578.8125 Q276.1875,579.5 277.6875,579.5 Q278.5781,579.5 279.2031,579.2969 Q279.5625,579.1875 279.9688,578.8281 Q280.2344,578.625 280.375,578.5625 Q280.5156,578.5 280.6875,578.5 Q281.0156,578.5 281.25,578.7656 Q281.5,579.0156 281.5,579.375 Q281.5,579.7188 281.1563,580.125 Q280.6563,580.7188 279.8594,581.0469 Q278.8125,581.5 277.5313,581.5 Q276.0313,581.5 274.8281,580.9063 Q273.8594,580.4375 273.1719,579.4219 Q272.5,578.4063 272.5,577.2031 L272.5,576.1094 Q272.5,574.8594 273.0938,573.7656 Q273.7031,572.6719 274.75,572.0938 Q275.8125,571.5 277,571.5 Q277.7188,571.5 278.3438,571.75 Q278.9688,572 279.5,572.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="291.5" y="581.7285">CenterDataStore</text><line style="stroke:#181818;stroke-width:0.5;" x1="263.5" x2="400.5" y1="592" y2="592"/><line style="stroke:#181818;stroke-width:0.5;" x1="263.5" x2="400.5" y1="600" y2="600"/><ellipse cx="273.5" cy="611" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="282.5" y="618.5332">getAll()</text></g><!--MD5=[1f8a64b88a55ca54e80d29d134f8aad4]
+class ArrivalStore--><g id="elem_ArrivalStore"><rect codeLine="33" fill="#F1F1F1" height="65.6094" id="ArrivalStore" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="101" y="560"/><ellipse cx="116" cy="576" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M118,572.5 Q118.2031,572 118.4375,571.75 Q118.6719,571.5 118.9375,571.5 Q119.4063,571.5 119.7031,571.7813 Q120,572.0625 120,572.7188 L120,574.2813 Q120,574.9375 119.7188,575.2188 Q119.4375,575.5 119,575.5 Q118.6094,575.5 118.3594,575.3281 Q118.1094,575.1563 118,574.7031 Q117.9531,574.3906 117.7813,574.2188 Q117.4688,573.8906 116.9063,573.7031 Q116.3438,573.5 115.7813,573.5 Q115.0781,573.5 114.4844,573.7813 Q113.9063,574.0625 113.4531,574.6875 Q113,575.3125 113,576.1719 L113,577.0938 Q113,578.125 113.8438,578.8125 Q114.6875,579.5 116.1875,579.5 Q117.0781,579.5 117.7031,579.2969 Q118.0625,579.1875 118.4688,578.8281 Q118.7344,578.625 118.875,578.5625 Q119.0156,578.5 119.1875,578.5 Q119.5156,578.5 119.75,578.7656 Q120,579.0156 120,579.375 Q120,579.7188 119.6563,580.125 Q119.1563,580.7188 118.3594,581.0469 Q117.3125,581.5 116.0313,581.5 Q114.5313,581.5 113.3281,580.9063 Q112.3594,580.4375 111.6719,579.4219 Q111,578.4063 111,577.2031 L111,576.1094 Q111,574.8594 111.5938,573.7656 Q112.2031,572.6719 113.25,572.0938 Q114.3125,571.5 115.5,571.5 Q116.2188,571.5 116.8438,571.75 Q117.4688,572 118,572.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="130" y="581.7285">ArrivalStore</text><line style="stroke:#181818;stroke-width:0.5;" x1="102" x2="206" y1="592" y2="592"/><line style="stroke:#181818;stroke-width:0.5;" x1="102" x2="206" y1="600" y2="600"/><ellipse cx="112" cy="611" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="121" y="618.5332">getAll()</text></g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><g id="elem_Company"><rect codeLine="37" fill="#F1F1F1" height="83.2188" id="Company" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="163" x="332.5" y="381.5"/><ellipse cx="379.75" cy="397.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M381.75,394 Q381.9531,393.5 382.1875,393.25 Q382.4219,393 382.6875,393 Q383.1563,393 383.4531,393.2813 Q383.75,393.5625 383.75,394.2188 L383.75,395.7813 Q383.75,396.4375 383.4688,396.7188 Q383.1875,397 382.75,397 Q382.3594,397 382.1094,396.8281 Q381.8594,396.6563 381.75,396.2031 Q381.7031,395.8906 381.5313,395.7188 Q381.2188,395.3906 380.6563,395.2031 Q380.0938,395 379.5313,395 Q378.8281,395 378.2344,395.2813 Q377.6563,395.5625 377.2031,396.1875 Q376.75,396.8125 376.75,397.6719 L376.75,398.5938 Q376.75,399.625 377.5938,400.3125 Q378.4375,401 379.9375,401 Q380.8281,401 381.4531,400.7969 Q381.8125,400.6875 382.2188,400.3281 Q382.4844,400.125 382.625,400.0625 Q382.7656,400 382.9375,400 Q383.2656,400 383.5,400.2656 Q383.75,400.5156 383.75,400.875 Q383.75,401.2188 383.4063,401.625 Q382.9063,402.2188 382.1094,402.5469 Q381.0625,403 379.7813,403 Q378.2813,403 377.0781,402.4063 Q376.1094,401.9375 375.4219,400.9219 Q374.75,399.9063 374.75,398.7031 L374.75,397.6094 Q374.75,396.3594 375.3438,395.2656 Q375.9531,394.1719 377,393.5938 Q378.0625,393 379.25,393 Q379.9688,393 380.5938,393.25 Q381.2188,393.5 381.75,394 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="400.25" y="403.2285">Company</text><line style="stroke:#181818;stroke-width:0.5;" x1="333.5" x2="494.5" y1="413.5" y2="413.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="340.5" y="421.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="352.5" y="432.0332">designation</text><line style="stroke:#181818;stroke-width:0.5;" x1="333.5" x2="494.5" y1="439.1094" y2="439.1094"/><ellipse cx="343.5" cy="450.1094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="352.5" y="457.6426">getCenterDataStore()</text></g><!--MD5=[dec9f04a8899c200311ed18dfb85f568]
+class BruteForce--><g id="elem_BruteForce"><rect codeLine="42" fill="#F1F1F1" height="65.6094" id="BruteForce" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="241" x="1302.5" y="390"/><ellipse cx="1383.25" cy="406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1385.25,402.5 Q1385.4531,402 1385.6875,401.75 Q1385.9219,401.5 1386.1875,401.5 Q1386.6563,401.5 1386.9531,401.7813 Q1387.25,402.0625 1387.25,402.7188 L1387.25,404.2813 Q1387.25,404.9375 1386.9688,405.2188 Q1386.6875,405.5 1386.25,405.5 Q1385.8594,405.5 1385.6094,405.3281 Q1385.3594,405.1563 1385.25,404.7031 Q1385.2031,404.3906 1385.0313,404.2188 Q1384.7188,403.8906 1384.1563,403.7031 Q1383.5938,403.5 1383.0313,403.5 Q1382.3281,403.5 1381.7344,403.7813 Q1381.1563,404.0625 1380.7031,404.6875 Q1380.25,405.3125 1380.25,406.1719 L1380.25,407.0938 Q1380.25,408.125 1381.0938,408.8125 Q1381.9375,409.5 1383.4375,409.5 Q1384.3281,409.5 1384.9531,409.2969 Q1385.3125,409.1875 1385.7188,408.8281 Q1385.9844,408.625 1386.125,408.5625 Q1386.2656,408.5 1386.4375,408.5 Q1386.7656,408.5 1387,408.7656 Q1387.25,409.0156 1387.25,409.375 Q1387.25,409.7188 1386.9063,410.125 Q1386.4063,410.7188 1385.6094,411.0469 Q1384.5625,411.5 1383.2813,411.5 Q1381.7813,411.5 1380.5781,410.9063 Q1379.6094,410.4375 1378.9219,409.4219 Q1378.25,408.4063 1378.25,407.2031 L1378.25,406.1094 Q1378.25,404.8594 1378.8438,403.7656 Q1379.4531,402.6719 1380.5,402.0938 Q1381.5625,401.5 1382.75,401.5 Q1383.4688,401.5 1384.0938,401.75 Q1384.7188,402 1385.25,402.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1403.75" y="411.7285">BruteForce</text><line style="stroke:#181818;stroke-width:0.5;" x1="1303.5" x2="1542.5" y1="422" y2="422"/><line style="stroke:#181818;stroke-width:0.5;" x1="1303.5" x2="1542.5" y1="430" y2="430"/><ellipse cx="1313.5" cy="441" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215" x="1322.5" y="448.5332">computeMaxSublist(int[] inputList);</text></g><!--MD5=[3d3df61ea897a06cdcfbfad93430fa14]
+class Benchmark--><g id="elem_Benchmark"><rect codeLine="46" fill="#F1F1F1" height="65.6094" id="Benchmark" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="241" x="1578.5" y="390"/><ellipse cx="1659.25" cy="406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1661.25,402.5 Q1661.4531,402 1661.6875,401.75 Q1661.9219,401.5 1662.1875,401.5 Q1662.6563,401.5 1662.9531,401.7813 Q1663.25,402.0625 1663.25,402.7188 L1663.25,404.2813 Q1663.25,404.9375 1662.9688,405.2188 Q1662.6875,405.5 1662.25,405.5 Q1661.8594,405.5 1661.6094,405.3281 Q1661.3594,405.1563 1661.25,404.7031 Q1661.2031,404.3906 1661.0313,404.2188 Q1660.7188,403.8906 1660.1563,403.7031 Q1659.5938,403.5 1659.0313,403.5 Q1658.3281,403.5 1657.7344,403.7813 Q1657.1563,404.0625 1656.7031,404.6875 Q1656.25,405.3125 1656.25,406.1719 L1656.25,407.0938 Q1656.25,408.125 1657.0938,408.8125 Q1657.9375,409.5 1659.4375,409.5 Q1660.3281,409.5 1660.9531,409.2969 Q1661.3125,409.1875 1661.7188,408.8281 Q1661.9844,408.625 1662.125,408.5625 Q1662.2656,408.5 1662.4375,408.5 Q1662.7656,408.5 1663,408.7656 Q1663.25,409.0156 1663.25,409.375 Q1663.25,409.7188 1662.9063,410.125 Q1662.4063,410.7188 1661.6094,411.0469 Q1660.5625,411.5 1659.2813,411.5 Q1657.7813,411.5 1656.5781,410.9063 Q1655.6094,410.4375 1654.9219,409.4219 Q1654.25,408.4063 1654.25,407.2031 L1654.25,406.1094 Q1654.25,404.8594 1654.8438,403.7656 Q1655.4531,402.6719 1656.5,402.0938 Q1657.5625,401.5 1658.75,401.5 Q1659.4688,401.5 1660.0938,401.75 Q1660.7188,402 1661.25,402.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1679.75" y="411.7285">Benchmark</text><line style="stroke:#181818;stroke-width:0.5;" x1="1579.5" x2="1818.5" y1="422" y2="422"/><line style="stroke:#181818;stroke-width:0.5;" x1="1579.5" x2="1818.5" y1="430" y2="430"/><ellipse cx="1589.5" cy="441" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215" x="1598.5" y="448.5332">computeMaxSublist(int[] inputList);</text></g><!--MD5=[81aecf568a8f0212ec609ab544580060]
+class PerformanceEvaluator--><g id="elem_PerformanceEvaluator"><rect codeLine="50" fill="#F1F1F1" height="65.6094" id="PerformanceEvaluator" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="241" x="1302.5" y="560"/><ellipse cx="1348.75" cy="576" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1349.75,573 L1349.75,579 L1351.75,579 L1352.2344,579 L1352.75,579.625 L1352.75,580 L1352.75,580.375 L1352.2344,581 L1351.75,581 L1345.75,581 L1345.2656,581 L1344.75,580.375 L1344.75,580 L1344.75,579.625 L1345.2656,579 L1345.75,579 L1347.75,579 L1347.75,573 L1345.75,573 L1345.2656,573 L1344.75,572.375 L1344.75,572 L1344.75,571.625 L1345.2656,571 L1345.75,571 L1351.75,571 L1352.2344,571 L1352.75,571.625 L1352.75,572 L1352.75,572.375 L1352.2344,573 L1351.75,573 L1349.75,573 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="140" x="1369.25" y="581.7285">PerformanceEvaluator</text><line style="stroke:#181818;stroke-width:0.5;" x1="1303.5" x2="1542.5" y1="592" y2="592"/><line style="stroke:#181818;stroke-width:0.5;" x1="1303.5" x2="1542.5" y1="600" y2="600"/><ellipse cx="1313.5" cy="611" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215" x="1322.5" y="618.5332">computeMaxSublist(int[] inputList);</text></g><!--MD5=[faf666d476a63e417b4256dc7e5529c6]
+class CenterDataMapper--><g id="elem_CenterDataMapper"><rect codeLine="54" fill="#F1F1F1" height="65.6094" id="CenterDataMapper" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="958.5" y="390"/><ellipse cx="973.5" cy="406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M975.5,402.5 Q975.7031,402 975.9375,401.75 Q976.1719,401.5 976.4375,401.5 Q976.9063,401.5 977.2031,401.7813 Q977.5,402.0625 977.5,402.7188 L977.5,404.2813 Q977.5,404.9375 977.2188,405.2188 Q976.9375,405.5 976.5,405.5 Q976.1094,405.5 975.8594,405.3281 Q975.6094,405.1563 975.5,404.7031 Q975.4531,404.3906 975.2813,404.2188 Q974.9688,403.8906 974.4063,403.7031 Q973.8438,403.5 973.2813,403.5 Q972.5781,403.5 971.9844,403.7813 Q971.4063,404.0625 970.9531,404.6875 Q970.5,405.3125 970.5,406.1719 L970.5,407.0938 Q970.5,408.125 971.3438,408.8125 Q972.1875,409.5 973.6875,409.5 Q974.5781,409.5 975.2031,409.2969 Q975.5625,409.1875 975.9688,408.8281 Q976.2344,408.625 976.375,408.5625 Q976.5156,408.5 976.6875,408.5 Q977.0156,408.5 977.25,408.7656 Q977.5,409.0156 977.5,409.375 Q977.5,409.7188 977.1563,410.125 Q976.6563,410.7188 975.8594,411.0469 Q974.8125,411.5 973.5313,411.5 Q972.0313,411.5 970.8281,410.9063 Q969.8594,410.4375 969.1719,409.4219 Q968.5,408.4063 968.5,407.2031 L968.5,406.1094 Q968.5,404.8594 969.0938,403.7656 Q969.7031,402.6719 970.75,402.0938 Q971.8125,401.5 973,401.5 Q973.7188,401.5 974.3438,401.75 Q974.9688,402 975.5,402.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="987.5" y="411.7285">CenterDataMapper</text><line style="stroke:#181818;stroke-width:0.5;" x1="959.5" x2="1110.5" y1="422" y2="422"/><line style="stroke:#181818;stroke-width:0.5;" x1="959.5" x2="1110.5" y1="430" y2="430"/><ellipse cx="969.5" cy="441" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="978.5" y="448.5332">toDTO(centerData)</text></g><!--MD5=[b38e38c2c5c9ddcf4a35fcc88492fdc5]
+class ArrivalMapper--><g id="elem_ArrivalMapper"><rect codeLine="58" fill="#F1F1F1" height="65.6094" id="ArrivalMapper" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="1147" y="390"/><ellipse cx="1162" cy="406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1164,402.5 Q1164.2031,402 1164.4375,401.75 Q1164.6719,401.5 1164.9375,401.5 Q1165.4063,401.5 1165.7031,401.7813 Q1166,402.0625 1166,402.7188 L1166,404.2813 Q1166,404.9375 1165.7188,405.2188 Q1165.4375,405.5 1165,405.5 Q1164.6094,405.5 1164.3594,405.3281 Q1164.1094,405.1563 1164,404.7031 Q1163.9531,404.3906 1163.7813,404.2188 Q1163.4688,403.8906 1162.9063,403.7031 Q1162.3438,403.5 1161.7813,403.5 Q1161.0781,403.5 1160.4844,403.7813 Q1159.9063,404.0625 1159.4531,404.6875 Q1159,405.3125 1159,406.1719 L1159,407.0938 Q1159,408.125 1159.8438,408.8125 Q1160.6875,409.5 1162.1875,409.5 Q1163.0781,409.5 1163.7031,409.2969 Q1164.0625,409.1875 1164.4688,408.8281 Q1164.7344,408.625 1164.875,408.5625 Q1165.0156,408.5 1165.1875,408.5 Q1165.5156,408.5 1165.75,408.7656 Q1166,409.0156 1166,409.375 Q1166,409.7188 1165.6563,410.125 Q1165.1563,410.7188 1164.3594,411.0469 Q1163.3125,411.5 1162.0313,411.5 Q1160.5313,411.5 1159.3281,410.9063 Q1158.3594,410.4375 1157.6719,409.4219 Q1157,408.4063 1157,407.2031 L1157,406.1094 Q1157,404.8594 1157.5938,403.7656 Q1158.2031,402.6719 1159.25,402.0938 Q1160.3125,401.5 1161.5,401.5 Q1162.2188,401.5 1162.8438,401.75 Q1163.4688,402 1164,402.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="1176" y="411.7285">ArrivalMapper</text><line style="stroke:#181818;stroke-width:0.5;" x1="1148" x2="1266" y1="422" y2="422"/><line style="stroke:#181818;stroke-width:0.5;" x1="1148" x2="1266" y1="430" y2="430"/><ellipse cx="1158" cy="441" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1167" y="448.5332">toDTO(arrival)</text></g><!--MD5=[68f3a02b715057fab1713673c9fd94f5]
+link PerformanceAnalysisUI to PerformanceAnalysisController--><g id="link_PerformanceAnalysisUI_PerformanceAnalysisController"><path codeLine="62" d="M414,55.29 C414,69.79 414,89.47 414,109.63 " fill="none" id="PerformanceAnalysisUI-to-PerformanceAnalysisController" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="414,114.76,418,105.76,414,109.76,410,105.76,414,114.76" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[94c6a84e833a7253b27ef668de5ac97d]
+link PerformanceAnalysisController to Company--><g id="link_PerformanceAnalysisController_Company"><path codeLine="63" d="M414,286.12 C414,316.75 414,350.17 414,376.2 " fill="none" id="PerformanceAnalysisController-to-Company" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="414,381.31,418,372.31,414,376.31,410,372.31,414,381.31" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e5a576401476e0dd2a797de747c06d83]
+link PerformanceAnalysis to PerformanceEvaluator--><g id="link_PerformanceAnalysis_PerformanceEvaluator"><path codeLine="64" d="M923.13,494.96 C929.13,496.71 935.1,498.4 941,500 C1060.34,532.38 1199.31,557.62 1297.28,573.4 " fill="none" id="PerformanceAnalysis-to-PerformanceEvaluator" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1302.5,574.24,1294.2547,568.8534,1297.5642,573.4411,1292.9765,576.7507,1302.5,574.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[75d4b8a83478bd1d3ad2900ee9fcccc8]
+link PerformanceAnalysisController to CenterDataStore--><g id="link_PerformanceAnalysisController_CenterDataStore"><path codeLine="65" d="M343.88,286.12 C331.99,304.79 321.43,325.23 315,346 C292.9,417.36 308.83,505.74 321.21,554.78 " fill="none" id="PerformanceAnalysisController-to-CenterDataStore" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="322.47,559.69,324.1072,549.9782,321.2271,554.8469,316.3583,551.9668,322.47,559.69" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ef9967993b48a634cbacd470128cb4e7]
+link PerformanceAnalysisController to VaccinationCenter--><g id="link_PerformanceAnalysisController_VaccinationCenter"><path codeLine="66" d="M273.78,286.07 C243.2,305.28 211.25,325.94 182,346 C163.48,358.7 143.63,373.39 126.47,386.45 " fill="none" id="PerformanceAnalysisController-to-VaccinationCenter" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="122.17,389.73,131.7521,387.4532,126.1458,386.6981,126.901,381.0918,122.17,389.73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bf3abdb8c19eab7a410609c0416031fc]
+link PerformanceAnalysisController to ArrivalStore--><g id="link_PerformanceAnalysisController_ArrivalStore"><path codeLine="67" d="M341.14,286.08 C325.64,305.33 309.8,326.01 296,346 C246.88,417.16 198.43,506.25 172.78,555.32 " fill="none" id="PerformanceAnalysisController-to-ArrivalStore" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="170.37,559.94,178.0835,553.8161,172.6858,555.5086,170.9933,550.1109,170.37,559.94" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b867bcd00522f83816b0ecd6bc881be3]
+link Company to CenterDataStore--><g id="link_Company_CenterDataStore"><path codeLine="68" d="M394.15,464.67 C380.66,492.3 362.97,528.55 349.91,555.3 " fill="none" id="Company-to-CenterDataStore" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="347.7,559.84,355.2544,553.5209,349.9017,555.3508,348.0717,549.9982,347.7,559.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2586658b78df96176ec13ffdfebef870]
+link VaccinationCenter to ArrivalStore--><g id="link_VaccinationCenter_ArrivalStore"><path codeLine="69" d="M95.08,456.39 C107.38,484.72 125.25,525.84 138.08,555.36 " fill="none" id="VaccinationCenter-to-ArrivalStore" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="140.09,559.99,140.1843,550.1416,138.1032,555.4017,132.8431,553.3205,140.09,559.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a73581039e78f7a22f318f5ad5e8b03d]
+link PerformanceAnalysisController to PerformanceAnalysis--><g id="link_PerformanceAnalysisController_PerformanceAnalysis"><path codeLine="70" d="M534.12,286.12 C560.63,304.8 588.61,324.51 614.8,342.96 " fill="none" id="PerformanceAnalysisController-to-PerformanceAnalysis" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="618.98,345.9,613.9027,337.4607,614.8845,343.0317,609.3135,344.0135,618.98,345.9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9860c99abd611818d02a94ba491aa0cc]
+link BruteForce to PerformanceEvaluator--><g id="link_BruteForce_PerformanceEvaluator"><path codeLine="71" d="M1423,456.39 C1423,480.06 1423,512.65 1423,539.95 " fill="none" id="BruteForce-to-PerformanceEvaluator" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1430,539.99,1423,559.99,1416,539.99,1430,539.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2198152965082410890dd65e0bf8ed5b]
+link Benchmark to PerformanceEvaluator--><g id="link_Benchmark_PerformanceEvaluator"><path codeLine="72" d="M1646.11,456.19 C1602.57,482.69 1540.49,520.48 1492.86,549.47 " fill="none" id="Benchmark-to-PerformanceEvaluator" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1496.43,555.5,1475.71,559.92,1489.15,543.54,1496.43,555.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4a8b7580aacbd67e42f2f844bca0a84a]
+link PerformanceAnalysisController to CenterDataMapper--><g id="link_PerformanceAnalysisController_CenterDataMapper"><path codeLine="73" d="M562.55,225.27 C671.56,246.67 820.91,284.43 941,346 C961.49,356.5 981.68,371.96 998.06,386.2 " fill="none" id="PerformanceAnalysisController-to-CenterDataMapper" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1002.14,389.79,998.0368,380.8366,998.3904,386.4824,992.7446,386.8359,1002.14,389.79" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3822acef4212a57c4d68181da1a440e9]
+link PerformanceAnalysisController to ArrivalMapper--><g id="link_PerformanceAnalysisController_ArrivalMapper"><path codeLine="74" d="M562.53,207.14 C713.12,218.28 948.99,250.93 1129,346 C1147.49,355.77 1164.56,371.28 1177.99,385.75 " fill="none" id="PerformanceAnalysisController-to-ArrivalMapper" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1181.68,389.8,1178.5749,380.4534,1178.3124,386.1042,1172.6616,385.8416,1181.68,389.8" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b63e1b3f6e43ac4246df065014143735]
+@startuml
+'https://plantuml.com/class-diagram
+
+class PerformanceAnalysisUI {
+}
+
+class VaccinationCenter {
++getArrivalStore()
+}
+
+class PerformanceAnalysisController {
++getCenterDataDTO()
++getArrivalsDTO()
++createList(date, time, cdDTO, arrivalsDTO)
++computeMaxSublist(inputLst, pe)
++getSublistSum(maxSublist)
++getSublistTimeInterval()
++getPerformanceEvaluator()
+}
+
+class PerformanceAnalysis {
++difArrivalLeaving(date, time, lstData, cdDTO, arrivalsDTO)
++computeMaxSublist(inputLst, pe)
++getSublistSum(maxSublist)
++getSublistTimeInterval()
++getListOfArrivals(date, cdDTO, arrivalsDTO)
++getListOfLeavings(date, cdDTO)
+}
+
+class CenterDataStore {
++getAll()
+}
+
+class ArrivalStore {
++getAll()
+}
+
+class Company {
+-designation
++getCenterDataStore()
+}
+
+class BruteForce {
++computeMaxSublist(int[] inputList);
+}
+
+class Benchmark {
++computeMaxSublist(int[] inputList);
+}
+
+interface PerformanceEvaluator {
++computeMaxSublist(int[] inputList);
+}
+
+class CenterDataMapper {
++toDTO(centerData)
+}
+
+class ArrivalMapper {
++toDTO(arrival)
+}
+
+PerformanceAnalysisUI ..> PerformanceAnalysisController
+PerformanceAnalysisController ..> Company
+PerformanceAnalysis ..> PerformanceEvaluator
+PerformanceAnalysisController ..> CenterDataStore
+PerformanceAnalysisController ..> VaccinationCenter
+PerformanceAnalysisController ..> ArrivalStore
+Company - -> CenterDataStore
+VaccinationCenter - -> ArrivalStore
+PerformanceAnalysisController ..> PerformanceAnalysis
+BruteForce ..|> PerformanceEvaluator
+Benchmark ..|> PerformanceEvaluator
+PerformanceAnalysisController ..> CenterDataMapper
+PerformanceAnalysisController ..> ArrivalMapper
+
+
+@enduml
+
+@startuml
+
+class PerformanceAnalysisUI {
+}
+
+class VaccinationCenter {
++getArrivalStore()
+}
+
+class PerformanceAnalysisController {
++getCenterDataDTO()
++getArrivalsDTO()
++createList(date, time, cdDTO, arrivalsDTO)
++computeMaxSublist(inputLst, pe)
++getSublistSum(maxSublist)
++getSublistTimeInterval()
++getPerformanceEvaluator()
+}
+
+class PerformanceAnalysis {
++difArrivalLeaving(date, time, lstData, cdDTO, arrivalsDTO)
++computeMaxSublist(inputLst, pe)
++getSublistSum(maxSublist)
++getSublistTimeInterval()
++getListOfArrivals(date, cdDTO, arrivalsDTO)
++getListOfLeavings(date, cdDTO)
+}
+
+class CenterDataStore {
++getAll()
+}
+
+class ArrivalStore {
++getAll()
+}
+
+class Company {
+-designation
++getCenterDataStore()
+}
+
+class BruteForce {
++computeMaxSublist(int[] inputList);
+}
+
+class Benchmark {
++computeMaxSublist(int[] inputList);
+}
+
+interface PerformanceEvaluator {
++computeMaxSublist(int[] inputList);
+}
+
+class CenterDataMapper {
++toDTO(centerData)
+}
+
+class ArrivalMapper {
++toDTO(arrival)
+}
+
+PerformanceAnalysisUI ..> PerformanceAnalysisController
+PerformanceAnalysisController ..> Company
+PerformanceAnalysis ..> PerformanceEvaluator
+PerformanceAnalysisController ..> CenterDataStore
+PerformanceAnalysisController ..> VaccinationCenter
+PerformanceAnalysisController ..> ArrivalStore
+Company - -> CenterDataStore
+VaccinationCenter - -> ArrivalStore
+PerformanceAnalysisController ..> PerformanceAnalysis
+BruteForce ..|> PerformanceEvaluator
+Benchmark ..|> PerformanceEvaluator
+PerformanceAnalysisController ..> CenterDataMapper
+PerformanceAnalysisController ..> ArrivalMapper
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+actor "Administrator" as ADM
+actor "System" as C
+
+activate ADM
+activate C
+C -> ADM: 1 Requests which type of operation the user wants to perform
+ADM --> C : 1.1 Returns an answer
+deactivate ADM
+deactivate C
+
+ADM -> C :  2 Requests information about currently registered vaccines
+activate ADM
+activate C
+C --> ADM :  2.1 Gives information about registered vaccines
+deactivate ADM
+deactivate C
+
+
+
+ADM -> C :  3 Registers new vaccines and its properties
+activate ADM
+activate C
+
+C --> ADM :  3.1 Returns updated list (if requested)
+
+deactivate C
+deactivate ADM
+
+@enduml

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.AdverseReactionsGUI.inputAdReaUI">
+
+    <AnchorPane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#27aa92" height="383.0" layoutX="8.0" layoutY="9.0" stroke="BLACK" strokeType="INSIDE" width="584.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1cc25e" height="43.0" layoutX="270.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+        <Text layoutX="291.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type the correspondent information" textAlignment="CENTER" wrappingWidth="278.13670349121094">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Text>
+        <TextField fx:id="snsnumber" layoutX="321.0" layoutY="92.0" prefHeight="36.0" prefWidth="175.0" />
+        <TextArea fx:id="adversereactions" layoutX="321.0" layoutY="177.0" prefHeight="167.0" prefWidth="175.0" />
+        <Text layoutX="209.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="187.13671875">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Text>
+        <Button fx:id="EXIT" layoutX="522.0" layoutY="301.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="26.0" prefWidth="62.0" text="EXIT">
+            <font>
+                <Font size="19.0" />
+            </font></Button>
+        <Button fx:id="okbutton" layoutX="527.0" layoutY="179.0" mnemonicParsing="false" onAction="#startValidation" prefHeight="43.0" prefWidth="51.0" text="OK">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Label layoutX="238.0" layoutY="64.0" prefHeight="28.0" prefWidth="129.0">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+         <ImageView fitHeight="42.0" fitWidth="263.0" layoutX="7.0" layoutY="10.0">
+            <image>
+               <Image url="@../../img/snsletter.jfif" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="274.0" fitWidth="230.0" layoutX="40.0" layoutY="92.0">
+            <image>
+               <Image url="@../../img/peoplewalk.jfif" />
+            </image>
+         </ImageView>
+         <Text layoutX="345.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SNS NUMBER" wrappingWidth="158.13671875">
+            <font>
+               <Font size="19.0" />
+            </font>
+         </Text>
+         <Text layoutX="368.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+         <Text layoutX="321.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADVERSE REACTIONS">
+            <font>
+               <Font size="19.0" />
+            </font>
+         </Text>
+    </children>
+</AnchorPane>
+
+</BorderPane>

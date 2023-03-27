@@ -1,0 +1,30 @@
+@startuml
+
+autonumber
+
+actor "Administrator" as ADM
+participant ":System" as sys
+
+activate ADM
+
+ADM -> sys : requests to load a set of SNS users from a file
+
+activate sys
+sys --> ADM : requests file's path
+deactivate sys
+
+ADM -> sys : types file path
+
+activate sys
+sys -->ADM : asks to confirm the file's path
+deactivate sys
+
+ADM -> sys : confirms file's path
+
+activate sys
+sys --> ADM : informs that the file was loaded in the system
+deactivate sys
+
+deactivate ADM
+
+@enduml

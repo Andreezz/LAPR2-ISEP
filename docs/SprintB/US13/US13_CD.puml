@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+NewVaccineUI "1"--|> NewVaccineController
+NewVaccineController "1"--|> Company
+Company "1"--|> VaccineStore
+VaccineStore "1"--|> Vaccine
+
+
+class NewVaccineUI{
+-ConsultCurrentVaccines()
+-RegisterNewVaccine()
+-ExitFunction()
+}
+
+class NewVaccineController{
+-RegisterNewVaccine()
+-RemoveVaccine()
+-ValidateNewVaccine()
+
+}
+
+class Company{
+
+-GetVaccineStore()
+-InsertNewVaccine()
+}
+
+class Vaccine{
+-Name
+-Manufacturer company
+-Age group
+-Administration process
+-Gender
+-Special cares with Pathologies and health conditions
+-Vaccine properties
+}
+class VaccineStore{
+-Vaccine Arraylist
+-RemoveVaccine()
+-GetCurrentVaccines()
+-RegisterNewVaccine()
+}
+
+
+
+@enduml

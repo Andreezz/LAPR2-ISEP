@@ -1,0 +1,65 @@
+@startuml
+autonumber
+actor Nurse as N
+participant ":WaitingRoomListUI" as UI
+participant ":WaitingRoomListController" as CTRL
+participant ":Company" as C
+participant "store :ArrivalStore" as store
+participant "list :ArrivalStore" as list
+
+N -> UI : wants a list of SNS Users on the\nwaiting room
+activate UI
+
+N <-- UI: asks confirmation about the\ncentre (vacCenter) the nurse works at
+note right
+  vacCenter is selected
+   at the NurseUI and sent
+   to the WaitingRoomListUI
+end note
+deactivate UI
+N -> UI : confirms the Centre
+activate UI
+UI->CTRL: getArrivals(vacCenter)
+activate CTRL
+CTRL->C: allArrivals = getArrivalStore()
+activate C
+deactivate C
+CTRL-->store**: ArrivalStore()
+CTRL-->list**: ArrivalStore()
+loop for each Arrival[a] in allArrivals
+opt i.getVaccCenter().getName() == vacCenter
+CTRL->store:addArrival(a)
+activate store
+end opt
+end loop
+
+loop for each Arrival[a] in store
+opt arr.getDate() == currentDate
+store->list: addArrival(a)
+deactivate store
+activate list
+end opt
+end loop
+
+list->list: list = sort(Comparator.comparing(Arrival::getTime))
+activate list
+list-->CTRL: list
+deactivate list
+deactivate list
+CTRL-->UI: list
+deactivate CTRL
+N <-- UI: shows the waiting room list\nand asks for confirmation
+deactivate UI
+
+N -> UI : confirms the action
+activate UI
+N <-- UI: informs about operation success
+note right
+By confirming, the operation ends and
+the user is sent back to the Nurse Menu
+end note
+deactivate UI
+
+
+
+@enduml

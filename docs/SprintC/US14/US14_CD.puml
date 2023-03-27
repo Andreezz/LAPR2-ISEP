@@ -1,0 +1,74 @@
+@startuml
+
+FileLoaderUI ..> FileLoaderController
+FileLoaderController .> Company : gets instance from
+FileLoaderController -->"notifies users" SendPasswordNotification
+FileLoaderController -->"adds users to the system" AuthFacade
+FileLoaderController --> "creates Passwords" PasswordGenerator
+Company "1  "--> SNSUserStore : creates
+FileLoaderController ..> SNSUserStore
+SNSUserStore "1 "-->"*" SNSUser : creates, stores and validates
+FileLoaderController ..> FileLoader
+
+
+class FileLoaderUI{
++confirmFilePath(filePath)
++FileLoaderUI()
+}
+
+class FileLoaderController{
++createFileLoader(filePath)
++loadFile()
++validateFileUser(user)
++fileUserExists(user)
++getUser(name, gender, birthdate, address, phoneNumber, email, SNSNumber, cc)
++loadSNSUserSet(fileUsers)
++getUserList()
+}
+
+class FileLoader{
+-SNSUserfile
+-scanner
+-ctrl
+-fileUsers
++loadFile()
++checkFilePath(filePath)
+}
+
+
+class SNSUser {
+-name
+-address
+-gender
+-phoneNumber
+-email
+-birthDate
+-SNSNumber
+-cc
++SNSUser(name, gender, birthdate, address, phoneNumber, email, SNSNumber, cc)
+}
+
+class SNSUserStore{
++create(name, gender, birthdate, address, phoneNumber, email, SNSNumber, cc)
++userExists(user)
++validateSNSUser(user)
++getSNSUserList()
+}
+
+class Company{
++getSNSUserStore()
+}
+
+class SendPasswordNotification{
++sendPassword()
+}
+
+class AuthFacade{
++addUserWithRole(name, email, pwd, roleId)
+}
+
+class PasswordGenerator{
++getPassword()
+}
+
+@enduml

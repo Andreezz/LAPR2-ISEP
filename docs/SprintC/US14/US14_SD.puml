@@ -1,0 +1,100 @@
+@startuml
+
+autonumber
+
+actor "Administrator" as adm
+participant ":FileLoaderUI" as ui
+participant ":FileLoaderController" as ctrl
+participant ":Company" as comp
+participant ":SNSUserStore" as snsStore
+participant ":SNSUser" as sns
+participant ":FileLoader" as loader
+participant ":AuthFacade" as auth
+
+activate adm
+
+adm -> ui : requests to load a file
+
+activate ui
+ui --> adm : asks for file path
+adm -> ui : types file's path
+ui --> adm : asks for path confirmation
+adm -> ui : confirms file path
+ui -> ctrl : createFileLoader(filePath)
+deactivate ui
+
+activate ctrl
+ctrl -> loader** : loader = create(filePath)
+deactivate ctrl
+
+ui -> ctrl : loadFile()
+activate ui
+deactivate ui
+activate ctrl
+ctrl -> comp : getSNSUserStore()
+activate comp
+deactivate comp
+ctrl -> loader : loadFile()
+deactivate ctrl
+loop while (scanner.hasNextLine())
+activate loader
+loader -> ctrl : user = getUser(userAttributes[0] , userAttributes[1], userAttributes[2], userAttributes[3], userAttributes[4], userAttributes[5], userAttributes[6], userAttributes[7])
+activate ctrl
+ctrl -> snsStore : createSNS(name, gender, birthdate, address, phoneNumber, email, SNSNumber, cc)
+activate snsStore
+snsStore --> sns** : create(name, gender, birthdate, address, phoneNumber, email, SNSNumber, cc)
+deactivate snsStore
+deactivate ctrl
+loader -> ctrl : fileUserExists(user)
+activate ctrl
+ctrl -> snsStore : fileUserExists(user)
+activate snsStore
+snsStore -> snsStore : userExists(user)
+activate snsStore
+deactivate snsStore
+deactivate ctrl
+deactivate snsStore
+loader -> ctrl : validateFileUser(user)
+activate ctrl
+ctrl -> snsStore : validateSNSUser(user)
+activate snsStore
+snsStore -> snsStore : validateSNSUser(user)
+activate snsStore
+deactivate snsStore
+deactivate snsStore
+deactivate ctrl
+loader -> loader : fileUsers.add(user)
+activate loader
+deactivate loader
+end loop
+activate loader
+loader -> ctrl : loadSNSUserSet(fileUsers)
+deactivate loader
+
+activate ctrl
+loop for each SNSUser[u] in fileUsers
+ctrl -> snsStore : saveSNSUser(u)
+activate snsStore
+snsStore -> snsStore : saveSNSUser(u)
+activate snsStore
+deactivate snsStore
+deactivate snsStore
+ctrl -> PasswordGenerator : pwd = getPassword()
+activate PasswordGenerator
+deactivate PasswordGenerator
+ctrl -> auth : addUserWithRole(u.getName(), u.getEmail(), role, pwd)
+activate auth
+deactivate auth
+ctrl -> SendPasswordNotification : sendPassword(names, emails, passwords)
+activate SendPasswordNotification
+deactivate SendPasswordNotification
+
+end loop
+
+ui --> adm : informs that the file was loaded succssessfully
+activate ui
+deactivate ui
+deactivate adm
+
+@enduml
+

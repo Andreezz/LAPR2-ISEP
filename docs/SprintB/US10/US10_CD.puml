@@ -1,0 +1,77 @@
+@startuml
+
+EmployeeUI "1"--> EmployeeController
+EmployeeController "1"--> Company: gets instance of EmployeeStore and AuthFacade
+Company "1"--> EmployeeStore
+Company "1"-> AuthFacade
+EmployeeStore "1*" --> Employee: creates validates and stores
+Employee "1" --> Email: creates
+AuthFacade "1"--> UserRoleStore
+AuthFacade "1"--> UserStore
+EmployeeUI "1" -> Password:creates
+
+class Employee{
+    -name
+    -phoneNumber
+    -id
+    -email
+    -cc
+    -address
+    +toString()
+}
+
+class EmployeeUI{
++employeeExit()
++isInfoCorrectlyTyped()
++registerEmployee(address, name, phoneNumber, id, email, cc, pwd, roleId)
+}
+
+class EmployeeController{
++getEmployeeRoleList()
++createEmployee(address, name, phoneNumber, id, email, cc)
++addUserWithRole(name, email, pwd, roleId)
+}
+
+class Company{
+-designation
+-authfacade
++getEmployeeRoleList()
++getEmployeeStore()
++getAuthFacade()
+}
+
+class AuthFacade{
++addUserWithRole(name, email, pwd, roleId)
+}
+
+class EmployeeStore{
++createEmployee(address, name, phoneNumber, roleId, email, cc)
++saveEmployee(employee)
++validateEmployee(employee)
++addEmployee(employee)
++employeeExists(employee)
+}
+
+class Email{
+-email
++validate(email)
++checkFormat(email)
+}
+
+class UserRoleStore{
++getById(roleId)
++add()
+}
+
+class UserStore{
++create(name, email, pwd)
++add(user)
++exists(user)
+}
+
+class Password{
+-password
+}
+
+
+@enduml

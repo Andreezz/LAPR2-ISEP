@@ -1,0 +1,37 @@
+@startuml
+
+autonumber
+
+actor "Center Coordinator" as adm
+participant "ExportVaccinatedDailyUI" as ui
+participant "ExportCtrl" as ctrl
+participant "ExportStatistics" as loader
+
+activate adm
+adm -> ui : requests to load a file
+
+activate ui
+ui --> adm : asks for file path and date
+adm -> ui : types file's path
+ui --> adm : asks for path confirmation
+adm -> ui : confirms file path
+ui -> ctrl : createExport(filePath)
+deactivate ui
+
+activate ctrl
+ctrl -> loader** : loader = createExport(filePath)
+deactivate ctrl
+
+ui -> ctrl : ExportFile()
+activate ui
+deactivate ui
+activate ctrl
+ctrl -> loader : ExportFile()
+deactivate ctrl
+
+ui --> adm : informs that the file was loaded succssessfully
+activate ui
+deactivate ui
+deactivate adm
+
+@enduml

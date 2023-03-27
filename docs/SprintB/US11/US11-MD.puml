@@ -1,0 +1,47 @@
+@startuml
+
+class "Employee" as E{
+-Name
+-Employee Number
+-Age
+-Phone Number
+-Email
+-CC
+}
+
+class Administrator{
+}
+
+class "Health Care Center" as HCC{
+-Name
+-Address
+-Phone Number
+-E-mail
+-Fax Number
+-Link
+-Opening Hours
+-Closing Hours
+-Max Vaccines per slot
+}
+
+class "Vaccination Center" as VC{
+-Name
+-Address
+-Phone Number
+-E-mail
+-Fax Number
+-Link
+-Opening Hours
+-Closing Hours
+-Slot Duration
+-Max Vaccines per slot
+}
+
+Administrator-up-|>E
+Administrator"1"-->"*"HCC:  manages the\ninformation of
+Administrator"1"-->"*"E:registers
+VC-up-|>HCC
+
+
+
+@enduml

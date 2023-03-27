@@ -1,0 +1,115 @@
+@startuml
+
+autonumber
+
+actor coordinator as cord
+participant CenterDataUI as ui
+participant CenterDataController as ctrl
+participant Company as comp
+participant FileLoader as load
+participant ConvertDateFormat as convertD
+participant ConvertTimeFormat as convertT
+participant CenterData as cd
+participant ArrivalDateTime as adt
+participant ScehduleDateTime as sdt
+participant LeavingDateTime as ldt
+participant AdminDateTime as admdt
+participant DateTime as dt
+participant FileLoaderController as ctrl1
+participant Company as comp
+participant SNSUserStore as snsStore
+participant CenterDataStore as store
+
+activate cord
+
+cord -> ui : requests to load center data
+note left: the steps relating to interactions\nwith the actor are ommited\nbecause they are equal to the SSD
+
+activate ui
+ui -> ctrl : createCenterDataFileLoader(filePath)
+
+activate ctrl
+
+ctrl --> load** : loader = create(filePath, isCenter)
+deactivate ctrl
+
+ui -> ctrl : loadCenterDataFile()
+deactivate ui
+activate ctrl
+ctrl -> load : loadFile(isCenter)
+note left: The boolean paramater determines\nthat center data will be loaded
+deactivate ctrl
+
+activate load
+
+loop while(scanner.hasNextLine())
+load -> load : loadCenterDataLine(delimiter, line)
+activate load
+
+load -> convertD : convert(arr[0], sch[0], admin[0], leave[0])
+activate convertD
+deactivate convertD
+
+load -> convertT : convert(arr[1], sch[1], admin[1], leave[1])
+activate convertT
+deactivate convertT
+
+load --> cd** : create((arrays that represent dateTimes), SNSnum, lot, vacName, currentName)
+
+deactivate load
+deactivate load
+
+activate cd
+
+cd --> adt** : arr = create(date, time)
+cd --> sdt** : sch = create(date, time)
+cd --> ldt** : leave = create(date, time)
+cd --> admdt** : admin = create(date, time)
+
+cd -> cd : validate(cd attributes)
+activate cd
+cd -> cd : validateSNSnumber()
+activate cd
+deactivate cd
+cd -> cd : validateLotNumber()
+activate cd
+deactivate cd
+cd -> dt : validate(ArrivalDateTime)
+activate dt
+deactivate dt
+note left : validation is repeated for\nother DateTime attributes
+deactivate cd
+deactivate cd
+
+
+load -> ctrl1 : checkSNSnumExists(SNSnum)
+activate load
+activate ctrl1
+ctrl1 -> comp : getSNSUserStore()
+activate comp
+deactivate comp
+ctrl1 -> snsStore : checkSNSnumExists(SNSnum)
+activate snsStore
+deactivate snsStore
+deactivate ctrl1
+
+load -> load : centerDataList.add(cd)
+activate load
+deactivate load
+end loop
+
+load -> ctrl : loadCenterData(centerDataList)
+activate ctrl
+loop for each element of centerDataList
+ctrl -> store : CenterDataExists(get(i))
+activate store
+ctrl -> store : add(get(i))
+deactivate store
+deactivate ctrl
+end loop
+
+ui --> cord : informs that the file was loaded successfully
+activate ui
+deactivate cord
+
+@enduml

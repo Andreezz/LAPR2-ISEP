@@ -1,0 +1,17 @@
+@startuml
+
+admin --> user
+class "Administrator" as admin{
+}
+class "SNS User" as user{
+-Name
+-Phone Number
+-Email
+-CC Number
+-SNS Number
+-Address
+-BirthDate
+-gender
+}
+
+@enduml

@@ -1,0 +1,102 @@
+@startuml
+
+autonumber
+actor ":Coordinator" as cord
+participant ":CenterDataUI" as ui
+participant ":CenterDataController" as ctrl
+participant ":Company" as comp
+participant ":CenterDataStore" as store
+participant ":CenterDataMapper" as map
+participant "cdList: List<CenterData>" as list
+participant "cdListDTO: List<CenterDataDTO>" as dtoList
+participant "cdDTO: CenterDataDTO" as cdDto
+participant ":NewVaccine" as vac
+participant ":SNSUser" as sns
+participant ":PropertiesCache" as prop
+participant ":SelectionSort" as sort1
+participant ":PancakeSort" as sort2
+participant ":CompareInstance" as compare
+
+activate cord
+
+cord -> ui : requests to view center data
+activate ui
+ui -> ctrl : isListEmpty()
+deactivate ui
+activate ctrl
+ctrl -> comp : getCenterDataStore()
+activate comp
+deactivate comp
+ctrl -> store: isEmpty()
+activate store
+deactivate store
+deactivate ctrl
+
+note left: chooses type sorting and order\nThis steps are ommited because\nthey are the same as the SSD
+
+ui -> ctrl : getSortedList(order, type)
+activate ui
+activate ctrl
+ctrl -> store : cdList = getList()
+activate store
+deactivate store
+ctrl -> map : toDTO(cdList)
+deactivate ctrl
+activate map
+map --> dtoList** : cdListDTO = create()
+loop for each object in cdList
+map -> list : cd = get(i)
+activate list
+deactivate list
+map -> map : cdDTO = toDTO(cd)
+activate map
+map --> cdDto** : create()
+deactivate map
+map -> dtoList : add(cdDTO)
+activate dtoList
+deactivate map
+ctrl -> vac : typeList.add(getType())
+activate ctrl
+activate vac
+deactivate vac
+ctrl -> sns : nameList.add(getName())
+activate sns
+deactivate sns
+deactivate ctrl
+end loop
+dtoList --> ctrl : cdListDTO, nameList, typeList
+deactivate dtoList
+activate ctrl
+ctrl -> prop : algorithm = getProperty("algorithm17")
+activate prop
+deactivate prop
+alt algorithm.equals("S")
+ctrl -> ctrl : selectionSort(order, type)
+activate ctrl
+ctrl -> sort1 : sort(cdListDTO, order, type)
+activate sort1
+sort1 -> compare : compareDateTime(dateTime1, dateTime2)
+activate compare
+deactivate compare
+deactivate sort1
+deactivate ctrl
+else if algorithm.equals("P")
+ctrl -> ctrl : pancakeSort(order, type)
+activate ctrl
+ctrl -> sort2 : sort(cdListDTO, order, type)
+activate sort2
+sort2 -> compare : compareDateTime(dateTime1, dateTime2)
+activate compare
+deactivate compare
+deactivate sort2
+deactivate ctrl
+end alt
+ctrl --> ui : cdListDTO, nameList, typeList
+deactivate ctrl
+ui --> cord : shows sorted list
+deactivate ui
+deactivate cord
+
+@enduml
+
+

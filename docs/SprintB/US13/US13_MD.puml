@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+class "Administrator" as ADM{
+}
+
+class "Company/System" as C{}
+
+class "Vaccine Arraylist" as VA{
+}
+class "Vaccine" as V{
+- Manufactor company
+- Vaccine properties
+- Administration process
+}
+ADM"1"--"*"C: exchange of information (vaccine related)
+ADM"1"--"*"VA: Updates the arraylist
+VA"1"--"*"C: Communicates to update current and new information
+VA"1"--"*"V: Constituted by
+
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Administrator" as adm
+participant ":ListVaccinesUI" as ui
+participant ":ListVaccinesController" as ctrl
+participant ":Company" as comp
+participant ":VaccineStore" as store
+
+activate adm
+
+adm -> ui : requests to view a vaccines list
+activate ui
+ui -> ctrl : getVaccineList()
+activate ctrl
+deactivate ui
+ctrl -> comp : getVaccineStore()
+activate comp
+deactivate comp
+ctrl -> store : getVaccineList()
+deactivate ctrl
+activate store
+store -> store : output = listOutput()
+activate store
+deactivate store
+activate ui
+ui --> adm : prints list output
+
+
+
+@enduml

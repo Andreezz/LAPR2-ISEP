@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+
+class CenterCoordinator{
+}
+class VaccinationCenter{
+}
+
+class VaccinationCenter{
+name
+email
+phoneNumber
+address
+webAddress
+faxNumber
+vctype
+slotDuration
+maxVaccines
+schedule
+}
+class ExportStatistics{
++ExportStatistics(String filePath)
++checkFileName()
+}
+class Company{
+-designation
+}
+
+VaccinationCenter"1" --> "1"CenterCoordinator
+ Company "1" --> "*" ExportStatistics:knows
+CenterCoordinator "1" --> "*" ExportStatistics: Ask
+@enduml

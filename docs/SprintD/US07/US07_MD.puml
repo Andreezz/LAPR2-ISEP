@@ -1,0 +1,48 @@
+@startuml
+
+class Nurse
+class ProcessAdministration
+class AdverseReactions
+class Vaccine
+class VaccineType
+class HealthcareCenter
+class SNSUser
+
+
+class Nurse {
+}
+
+class ProcessAdministration{
+}
+
+class AdverseReactions{
+}
+
+class VaccineType{
+}
+
+class Vaccine{
+}
+
+class HealthcareCenter{
+}
+
+class SNSUser{
+}
+
+
+
+Nurse "1" --> "*" AdverseReactions:registers
+ProcessAdministration "1" --> "*" AdverseReactions:.
+Nurse "1" --> "*" ProcessAdministration: Performs
+AdverseReactions"1" --> "*"HealthcareCenter: Is registered in a
+AdverseReactions "1" --> "*" VaccineType: Is an attribute of
+AdverseReactions "1" --> "*" Vaccine: Is an attribute of
+Vaccine "1" --> "*" VaccineType : Has
+AdverseReactions "1" --> "*" SNSUser : Happens in
+SNSUser "1" --> "*" HealthcareCenter: Is vaccinated in a
+Vaccine "1" --> "*" HealthcareCenter: Is administrated in
+SNSUser "1" --> "*" Vaccine: Receives
+Nurse "1" --> "*" SNSUser: Vaccinates
+Nurse "1" --> Vaccine: Administrates
+@enduml

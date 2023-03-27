@@ -1,0 +1,53 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SNSUser
+class Company
+class ScheduleVaccine
+class VaccineType
+class HealthCareCenter
+
+
+
+
+
+class Company {
+-designation
+}
+
+class SNSUser {
+name
+email
+password
+}
+
+class ScheduleVaccine{
+-number
+-age
+-gender
+-vaccine
+-date
+-hours
+-NameCenter
+}
+
+class HealthCareCenter{
+- name
+- identification
+
+}
+
+class VaccineType{
+-code
+-type
+-tech
+
+}
+
+
+SNSUser "1" --> "*" ScheduleVaccine:register
+Company "1" --> "*" ScheduleVaccine:knows
+SNSUser "1" --> "*" HealthCareCenter: Checks availability and is vaccinated in one
+SNSUser "1" --> "*" VaccineType
+
+@enduml

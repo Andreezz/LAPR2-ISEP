@@ -1,0 +1,53 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Company{
+-designation
+
++getScheduleVaccine()
+}
+
+class ScheduleVaccineUI {
+}
+
+class ScheduleVaccineController {
++ScheduleVaccineController()
++create(number, age, gender, vaccine, date, hours, NameCenter)
++ClearSchedule()
++getScheduleVaccineList()
++getToString()
++saveScheduleVaccine(schedule)
+}
+
+class ScheduleVaccineStore {
++create(number, age, gender, vaccine, date, hours, NameCenter)
++existsSchedule(snsNum, vaccCenter, date, time)
++getScheduleVaccineList()
++clearSchedules()
++getScheduleVaccineinfo()
++getSchedulevaccine()
++contains()
++saveNewScheduleVaccine()
+}
+
+class ScheduleVaccine {
+-number
+-age
+-gender
+-vaccine
+-date
+-hours
+-NameCenter
+
++toString()
+}
+
+ScheduleVaccineUI  --> ScheduleVaccineController
+ScheduleVaccineController --> Company
+Company --> ScheduleVaccineStore
+ScheduleVaccineStore --> ScheduleVaccine
+ScheduleVaccineController --> ScheduleVaccine
+ScheduleVaccineController --> ScheduleVaccineStore
+
+@enduml

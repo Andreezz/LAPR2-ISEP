@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ExportStatsGUI.ExportStatsUI">
+   <children>
+      <Label layoutX="16.0" layoutY="31.0" prefHeight="50.0" prefWidth="289.0" style="-fx-border-color: #eff705; -fx-background-color: #fbffcf; -fx-border-width: 2;" text="Export Vaccination Statistics Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="date1Text" layoutX="15.0" layoutY="129.0" prefHeight="26.0" prefWidth="290.0" promptText="Type the first date in the format DD/MM/YYYY:" />
+      <TextField fx:id="date2Text" layoutX="16.0" layoutY="173.0" prefHeight="26.0" prefWidth="290.0" promptText="Type the second date in the format DD/MM/YYYY:" />
+      <TextField fx:id="nameText" layoutX="16.0" layoutY="250.0" prefHeight="26.0" prefWidth="290.0" promptText="type the name here" />
+      <Label layoutX="16.0" layoutY="94.0" prefHeight="20.0" prefWidth="432.0" text="Type the time interval that you want to consider for the exportation:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnButton" layoutX="225" layoutY="299.0" mnemonicParsing="false" onAction="#returnCord" prefHeight="39.0" prefWidth="127.0" style="-fx-border-color: #fa0505; -fx-border-width: 2;" text="Return">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="exportButton" layoutX="15.0" layoutY="299.0" mnemonicParsing="false" onAction="#export" prefHeight="39.0" prefWidth="127.0" style="-fx-border-color: #6ff542; -fx-border-width: 2;" text="Export The File">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="finalLabel" layoutX="84.0" layoutY="121.0" prefHeight="68.0" prefWidth="443.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="223.0" prefHeight="20.0" prefWidth="265.0" text="Type the name of the file to be exported:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="155.0" fitWidth="185.0" layoutX="383.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/exportImage.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

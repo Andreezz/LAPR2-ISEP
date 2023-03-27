@@ -1,0 +1,106 @@
+@startuml
+
+
+class "FileLoader" as load{
+-centerDataFile
+-centerDataList
++loadFile((boolean) isCenter)
++FileLoader(filePath, (boolean) isCenterConstructor)
+}
+
+class "FileLoaderController" as loadCtrl {
++checkSNSnumExists (SNSnum)
+}
+
+class "SNSUserStore" as snsStore{
++checkSNSnumExists(SNSnum)
+}
+
+class "CenterDataController" as ctrl{
++createCenterDataFileLoader(path)
++getCD(arrDate, arrTime, schDate, schTime, adminDate, adminTime, leaveDate, leaveTime, SNSnum, lot, vacName, currentDose)
++validateCenterData(cd)
++loadCenterDataFile()
++loadCenterData(cdList)
++centerDataLineExists(cd)
+}
+
+class "CenterData" as cd{
+-arr
+-sch
+-admin
+-leave
+-SNSnum
+-lot
+-vacName
+-currentDose
++CenterData(arrDate, arrTime, schDate, schTime, adminDate, adminTime, leaveDate, leaveTime, SNSnum, lot, vacName, currentDose)
++toString()
++validateSNSnumber()
++validateCenterData()
++validateLotNumber()
++equals()
+}
+
+class "CenterDataStore" as store{
+-cd
+-store
++create(arrDate, arrTime, schDate, schTime, adminDate, adminTime, leaveDate, leaveTime, SNSnum, lot, vacName, currentDose)
++validate(cd)
++loadToLocalList()
++saveList()
++CenterDataExists(cd)
+}
+
+class "CenterDataUI" as ui{
++centerDataMenu()
++confirmFilePath(filePath)
+}
+
+class "Company" as comp{
++getCenterDataStore()
+}
+
+class "ConvertDateFormat" as convertD {
++convert(date)
+}
+
+class "ConvertTimeFormat" as convertT {
++convert(time)
+}
+
+class "DateTime" as dt{
+-date
+-time
++validate()
++toString()
+}
+
+class "ArrivalDateTime" as adt{
+}
+
+class "ScheduleDateTime" as sdt{
+}
+
+class "LeavingDateTime" as ldt{
+}
+
+class "NurseAdminDateTime" as ndt{
+}
+
+ui ..> ctrl : gives file's path
+ctrl ..> load
+load --> convertT : converts time
+load --> convertD : converts date
+load -> cd : creates instance with file's info
+cd ..> dt : creates instances for DateTime attributes
+load -left-> comp : gets SNSUserStore
+load --> loadCtrl : access to SNSUserStore
+loadCtrl -down-> snsStore : checks if SNSnumber exists
+adt -up-|> dt : extends
+sdt -up-|> dt : extends
+ldt -up-|> dt : extends
+ndt -up-|> dt : extends
+load ..> store : loads center data from file
+
+@enduml

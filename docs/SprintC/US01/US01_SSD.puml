@@ -1,0 +1,32 @@
+@startuml
+actor "SNS User" as SU
+actor "System" as C
+
+
+
+SU -> C: 1- Registers a new vaccination appointment with all required information(vaccine type, vaccine center, date and time)
+activate SU
+activate C
+C --> C: Checks given information and its authenticity
+C-> SU:  1.1- Returns a confirmation/denial response
+deactivate SU
+deactivate C
+SU -> C: 2- Requests for currently scheduled vaccine appointments
+activate SU
+activate C
+C--> C : Checks scheduled vaccines list
+C-> SU : 2.1- Returns information about scheduled vaccines, and if there are any.
+deactivate SU
+deactivate C
+SU-> C: 3- Requests for the elimination of on scheduled vaccine or the complete list
+activate SU
+activate C
+C-->C: Performs the removal of the requested schedule
+C-->SU: Returns a message with the confirmation of the procedure
+deactivate SU
+deactivate C
+
+
+
+
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Recepcionist
+class Company
+class ScheduleVaccine
+class VaccinationCenter
+
+
+
+
+
+class Company {
+-designation
+}
+class VaccinationCenter{
+name
+email
+phoneNumber
+address
+webAddress
+faxNumber
+vctype
+slotDuration
+maxVaccines
+schedule
+}
+
+class Recepcionist {
+name
+email
+password
+}
+
+class ScheduleVaccine{
+-number
+-age
+-gender
+-vaccine
+-date
+-hours
+-NameCenter
+}
+
+
+Recepcionist "1" --> "*" ScheduleVaccine:register
+Company "1" --> "*" ScheduleVaccine:knows
+VaccinationCenter "1" --> "*" Recepcionist
+
+@enduml

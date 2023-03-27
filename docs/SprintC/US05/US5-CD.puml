@@ -1,0 +1,52 @@
+@startuml
+
+WaitingRoomListUI ..> WaitingRoomListController
+SelVaccinationCenterUI ..> SelVaccinationCenterController
+WaitingRoomListUI ..> SelVaccinationCenterUI
+
+WaitingRoomListController ..> Company
+Company "1"--> "1"ArrivalStore: adopts
+ArrivalStore "1"--> "*"Arrival:stores
+WaitingRoomListController ..> "ArrivalStore"
+
+class SelVaccinationCenterUI{
++getSelectedVC()
+}
+
+class SelVaccinationCenterController{
++SelVaccinationCenterController()
++exits()
+}
+
+class WaitingRoomListUI{
+-ctrl
+-vc
+}
+
+class WaitingRoomListController{
++getArrivals(vc)
++waitingRoomListing(arrivalList)
+}
+
+class Company{
++getArrivalStore()
+}
+
+class ArrivalStore{
++filterByVaccCentre(vc)
++orderByArrival()
++isEmpty()
++toString()
+}
+
+class Arrival{
+-date
+-time
+-user
+-vaccCenter
++getTime()
++getDate()
+}
+
+
+@enduml

@@ -1,0 +1,105 @@
+@startuml
+
+class "CenterDataUI" as ui{
++chooseOrder()
++chooseType()
+}
+
+class "CenterDataController" as ctrl{
++isListEmpty()
++getSortedList(order, type)
++selectionSort(order, type)
++pancakeSort(order, type)
+}
+
+class "Company" as comp{
++getCenterDataStore()
++getVaccineStore()
++getSNSUserStore()
+}
+
+class "CenterDataStore" as store{
++isEmpty()
++getAll()
+}
+
+class "CenterDataMapper" as map{
++toDTO(cd)
++toDTO(cdList)
+}
+
+class "CenterData" as cd{
+-arr
+-sch
+-admin
+-leave
+-SNSnum
+-lot
+-vacName
+-currentDose
++toString()
+}
+
+class "CenterDataDTO" as dto{
+}
+
+class "PropertiesCache" as prop{
++getProperty(key)
+}
+
+class "SelectionSort" as sort1{
++sort()
+}
+
+class "PancakeSort" as sort2{
++sort()
+}
+
+class "CompareInstance" as compare{
++compareDateTime()
+}
+
+class "NewVaccine" as vac{
+-name
+-type
+-manufacturercompany
+-administrationProcess
+-Dose
++getVacctype()
+}
+
+class "SNSUser" as sns{
+-Name
+-Phone Number
+-Email
+-CC Number
+-SNS Number
+-Address
+-BirthDate
+-gender
++getName()
+}
+
+class "VaccineStore" as vacStore{
+}
+
+class "SNSUserStore" as snsStore{
+}
+
+ui ..> ctrl : gives order and type
+ctrl -left-> comp : gets stores
+ctrl -down-> vacStore : accesses data
+vacStore --> vac : gets type
+ctrl -down-> snsStore : accesses data
+snsStore --> sns : gets name
+ctrl ..> prop : gets the algorithm from configuration file
+ctrl .> store : checks if list is empty and gets list
+store .> cd
+ctrl -down-> map : maps to DTO
+map --> dto : creates dto instances
+ctrl --> sort1 : sorts
+ctrl --> sort2 : sorts
+sort1 --> compare : compares DateTime instances
+sort2 --> compare : compares DateTime instances
+ctrl .up.> ui : gives sorted list
+@enduml

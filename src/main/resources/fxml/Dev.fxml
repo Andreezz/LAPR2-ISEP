@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.DevUI">
+   <children>
+      <Button fx:id="returnButton" layoutX="225.0" layoutY="312.0" mnemonicParsing="false" onAction="#returnButton" prefHeight="43.0" prefWidth="147.0" text="Return">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="141.0" layoutY="113.0" prefHeight="174.0" prefWidth="316.0" text="André Gonçalves - 1210804@isep.ipp.pt&#10;Lourenço Mayol - 1211206@isep.ipp.pt &#10;Miguel Moreira - 1211240@isep.ipp.pt&#10;Petra Conceição - 1201614@isep.ipp.pt&#10;Pedro Ferreira - 1210825@isep.ipp.pt&#10;Sérgio Ferreira - 1210829@isep.ipp.pt" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+      <Label layoutX="225.0" layoutY="40.0" prefHeight="55.0" prefWidth="147.0" text="This is our team!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,214 @@
+@startuml
+class "Company" as comp{
+-designation
+}
+
+class "Employee" as E{
+-Name
+-Employee id
+-Address
+-Phone Number
+-Email
+-CC
+}
+
+class Administrator{
+}
+class "Process Administration" as proc{
+}
+class "Receptionist" as rec{
+}
+class "Center Coordinator" as coordinator{
+}
+class "Notification" as not{
+}
+class Performance {
+}
+class "SNS User" as user{
+-Name
+-Phone Number
+-Email
+-CC Number
+-SNS Number
+-Address
+-BirthDate
+-gender
+}
+
+class "Password Notification" as pass{
+}
+
+class "Age group" as age{
+-Min
+-Max
+}
+
+class "Vaccination Center" as VC{
+-name
+-email
+-phone number
+-address
+-web address
+-fax number
+-slot duration
+-max vaccines
+}
+
+class Schedule {
+-opening hours
+-closing hours
+}
+
+class "Slot"{
+-Duration
+-Max Vaccines
+}
+
+class "Recovery Period" as recovery{
+-time
+}
+
+class "Waiting Room" as wait{
+-Lotation
+}
+class "Arrival" as arrival{
+-Date
+-Time
+}
+
+class "Health Care Center" as HCC{
+-name
+-email
+-phone number
+-address
+-web address
+-fax number
+-slot duration
+-max vaccines
+}
+class Vaccine {
+-Brand
+-Vaccine Properties
+}
+class "Type of Vaccine" as type{
+-Code
+-Type
+-Tech
+}
+class "Nurse" as nurse{
+}
+class "Vaccine Schedule" as schedule{
+-Date
+-Time
+}
+
+
+class "Vaccine Administration" as adminVac{
+}
+class "EU COVID Digital Certificate" as certificado{
+-User Name
+-Number of doses
+-Date of vaccine administration
+}
+class "Adverse Reactions" as reaction {
+-Symptom
+-Description
+}
+
+class "Dose" as Do{
+-Dosage
+-Dose number
+-Lot Number
+}
+
+class "CenterDataCSV" as ccsv{
+}
+
+class "SNSUserCSV" as scsv{
+}
+
+
+class "CenterData" as cd{
+-arrivalDateTime
+-scheduleDateTime
+-administrationDateTime
+-leavingDateTime
+-SNSnumber
+-lotNumber
+-vaccineName
+-dose
+}
+
+
+comp-down->E: employees
+comp-down->Vaccine: handles
+Administrator-up-|>E
+nurse-up-|>E
+rec-up-|>E
+coordinator-up-|>E
+
+rec"1"-->"*"user:registers
+Administrator"1"-->"*"HCC:  manages the\ninformation of
+Administrator"1"-->"*"E:registers
+Administrator"1"-->"*"scsv : loads
+coordinator"1"-->"*"ccsv:loads
+ccsv --> cd : contains
+
+VC-up-|>HCC
+nurse"*"-->"*"HCC:works at
+adminVac-->nurse:done by
+HCC"*"<--"*"rec: works at
+user "*"-->"*"type:requests
+user"0..10"<--"*"schedule:can fit
+
+VC"*"-->"1"type:applies
+VC"*" --> "1"Schedule:has
+coordinator"1"-->"*"VC:manages\ninformation of
+coordinator"1" --> "1" Performance:analyze
+Performance"*" --> "1"VC:of a
+HCC"*"-->"*"certificado:emites
+
+adminVac"*"-->"*"Vaccine:of a
+
+certificado"*"-->"1"rec:issued by
+VC"1"<--"*"schedule:on
+schedule"*"-->"1"rec: done by
+
+Vaccine"*"-up->"1"type: has
+Administrator"1"-->"*"Vaccine:specifies
+Administrator"1"-->"*"type:specifies
+comp"1"-->"*"proc:has
+comp"1"-->"*"user:provides\nservices to
+comp"1"-->"*"HCC:owns
+
+user"1"-->"1"pass:receives
+
+proc"1"<-down-"*"arrival:is a phase of
+proc"1"<-down-"*"reaction:is a phase of
+arrival"*"-down->"1"wait:sent to
+proc"1"<-down-"*"recovery:is a phase of
+proc"1"<-down-"*"schedule:is a phase of
+proc"1"<-down-"*"adminVac:is a phase of
+proc"1"<-down-"*"wait:is a phase of
+
+recovery"1"-down->"1"not:sends
+not"1"-->"1"user:to
+rec"1"-up->"*"arrival:registers
+nurse"1"-->"*"wait:checks
+nurse"1"-->"*"reaction:registers
+
+arrival"*"-->"1"VC:at a
+
+VC"1"-->"*"Slot:has
+
+adminVac"1"-->"q"Do: has defined
+adminVac"1"<-down-"*"age:depends on
+
+reaction "1" --> nurse: is registered by
+reaction "1" --> "*" user: happens in
+reaction "1" --> "*" HCC : is registered in
+reaction "1" --> "*" Vaccine: is an attribute of
+reaction "1" --> "*" type: is an attribute of
+
+
+@enduml

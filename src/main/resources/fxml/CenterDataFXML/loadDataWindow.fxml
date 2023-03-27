@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fcdda7;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.CenterDataGUI.LoadDataUI">
+   <children>
+      <Button fx:id="loadButton" layoutX="232.0" layoutY="233.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#confirmLoadData" prefHeight="45.0" prefWidth="161.0" style="-fx-border-color: #34a832; -fx-border-width: 2;" text="Load Data">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="loadDataLabel" layoutX="130.0" layoutY="79.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="366.0" style="-fx-background-color: #fbffcf; -fx-border-color: #eff705; -fx-border-width: 2;" text="Type below the path of the file that you want to load">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="pathText" layoutX="156.0" layoutY="147.0" prefHeight="26.0" prefWidth="314.0" promptText="path/to/csv/file" style="-fx-background-color: #fbffcf; -fx-border-color: #eff705; -fx-border-width: 2;">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <Label fx:id="loadMessage" layoutX="118.0" layoutY="114.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="389.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="viewData" layoutX="232.0" layoutY="210.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#viewData" prefHeight="46.0" prefWidth="162.0" style="-fx-border-color: #34a832; -fx-border-width: 2;" text="View Data">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="returnButton" layoutX="250.0" layoutY="321.0" mnemonicParsing="false" onAction="#returnCord" prefHeight="34.0" prefWidth="126.0" style="-fx-border-color: #fa0505; -fx-border-width: 2;" text="Return">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

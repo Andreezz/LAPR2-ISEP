@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.21105527638190955" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.performanceGUI.PerformanceResultUI">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #2F4F4F;">
+         <children>
+            <Label contentDisplay="CENTER" layoutX="163.0" layoutY="25.0" text="Performance Analysis Result" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="22.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #171717;">
+         <children>
+            <Label fx:id="lblInputList" layoutX="272.0" layoutY="73.0" text="Input List :" textFill="#f3ff06">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMaxSubList" layoutX="258.0" layoutY="109.0" text="Max Sublist :" textFill="#ddff00">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblSum" layoutX="299.0" layoutY="144.0" text="Sum :" textFill="#fbff00">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTimeInterval" layoutX="242.0" layoutY="177.0" text="Time Interval :" textFill="#fbff00">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnExit" layoutX="364.0" layoutY="228.0" mnemonicParsing="false" onAction="#btnExitAction" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: yellow; -fx-border-style: solid; -fx-border-color: red;" text="Exit">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="311.0" fitWidth="214.0" layoutX="2.0" layoutY="-2.0">
+               <image>
+                  <Image url="@../../img/falcontech.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

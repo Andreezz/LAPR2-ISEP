@@ -1,0 +1,133 @@
+@startuml
+class "Company" as comp{
+-designation
+}
+
+class "Employee" as E{
+-Name
+-Employee id
+-Address
+-Phone Number
+-Email
+-CC
+}
+
+class Administrator{
+}
+class Receptionist{
+}
+class "Center Coordinator" as coordinator{
+}
+class "SNS User" as user{
+-Name
+-Phone Number
+-Email
+-CC Number
+-SNS Number
+-Address
+-BirthDate
+}
+class "Vaccination Center" as VC{
+-Name
+-Address
+-Phone Number
+-E-mail
+-Fax Number
+-Link
+-Opening Hours
+-Closing Hours
+-Slot Duration
+-Max Vaccines per slot
+}
+class "Health Care Center" as HCC{
+-Name
+-Address
+-Phone Number
+-E-mail
+-Fax Number
+-Link
+-Opening Hours
+-Closing Hours
+-Max Vaccines per slot
+}
+class Vaccine {
+-Manufacturer company
+-Vaccine Properties
+-Administration Process
+}
+class "Type of Vaccine" as type{
+-Code
+-Type
+-Tech
+}
+class "Nurse" as nurse{
+}
+class "Vaccine Schedule" as schedule{
+-Vaccine Center
+-Date
+-Time
+}
+class "Vaccine Administration" as adminVac{
+-Vaccine
+-Dosage
+-User
+-Schedule
+}
+class "EU COVID Digital Certificate" as certificado{
+-User Name
+-Number of doses
+-Date of vaccine administration
+}
+class "Adverse Reactions" as reaction {
+-Symptom
+-Description
+}
+
+class "Dose" as Do{
+-Dosage
+-Dose number
+-Lot Number
+}
+
+
+
+comp-down->E: employees
+comp-down->Vaccine: handles
+Administrator-up-|>E
+nurse-up-|>E
+Receptionist-up-|>E
+coordinator-up-|>E
+
+
+Receptionist"1"-->"*"user:registers
+Administrator"1"-->"*"HCC:  manages the\ninformation of
+Administrator"1"-->"*"E:registers
+
+VC-up-|>HCC
+nurse"*"-->"*"HCC:works at
+HCC"*"-->"*"Receptionist: works at
+user "*"-->"*"type:requests
+user"0..10"<--"*"schedule:can fit
+
+nurse"1"-->"*"adminVac: performs
+adminVac"*"-->"1"user: given to
+adminVac"*"-->"1"schedule: perfomed\nin
+adminVac"*"-->"1"Do:has
+Do"1"-->"*"user: prescribed\nto
+
+VC"*"-->"1"type:applies
+adminVac"1"-right->"0..*"reaction: has
+
+coordinator"1"-->"*"VC:manages\ninformation of
+
+HCC"*"-->"*"certificado:emites
+
+adminVac"*"-down->"*"Vaccine:of a
+
+certificado"*"-->"1"Receptionist:issued by
+
+Vaccine"*"-up->"1"type: has
+Administrator"1"-->"*"Vaccine:specifies
+Administrator"1"-->"*"type:specifies
+
+@enduml

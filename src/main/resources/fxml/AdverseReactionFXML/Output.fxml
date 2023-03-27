@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.AdverseReactionsGUI.outputAdReaUI">
+<AnchorPane prefHeight="401.0" prefWidth="602.0" BorderPane.alignment="CENTER">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#27aa92" height="401.0" layoutX="-1.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="602.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="52.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" width="421.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="52.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="421.0" />
+        <Label fx:id="analysis" layoutX="65.0" layoutY="149.0" prefHeight="28.0" prefWidth="402.0" text="ANALYSIS :">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="registinfo" layoutX="65.0" layoutY="223.0" prefHeight="28.0" prefWidth="403.0" text="REGISTERED INFORMATION:">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21a24e" height="59.0" layoutX="285.0" stroke="BLACK" strokeType="INSIDE" width="316.0" />
+        <Text layoutX="290.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR ACTION HAS BEEN CONCLUDED!" wrappingWidth="366.9140625">
+            <font>
+                <Font size="17.0" />
+            </font></Text>
+        <Button fx:id="Exitbutton" layoutX="525.0" layoutY="344.0" mnemonicParsing="false" onAction="#exitbut" text="EXIT">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+         <ImageView fitHeight="59.0" fitWidth="287.0" layoutX="-2.0" layoutY="1.0">
+            <image>
+               <Image url="@../../img/snsletter.jfif" />
+            </image>
+         </ImageView>
+         <Text layoutX="41.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you, for the registration!" wrappingWidth="278.13670349121094">
+            <font>
+               <Font size="19.0" />
+            </font></Text>
+    </children>
+</AnchorPane>
+
+</BorderPane>

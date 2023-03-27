@@ -1,0 +1,55 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "recepcionist" as recepcionist
+participant ":SpecifyNew \n ScheduleVaccineUI" as UI
+participant ":SpecifyNew \n ScheduleVaccineController" as Controller
+participant ":SpecifyNew \n Company" as company
+participant ":SpecifyNew \n ScheduleVaccineStore" as Store
+participant ":SpecifyNew \n ScheduleVaccine" as SV
+
+
+activate recepcionist
+recepcionist->UI: Start a schedule vaccine
+activate UI
+UI->Controller:createScheduleVaccine(number, birthdate, gender, vaccine, date, hours, NameCenter)
+activate Controller
+activate company
+activate Store
+Controller->company:store=getScheduleStore()
+Controller->Store:sv=createScheduleVaccine(number, birthdate, gender, vaccine, date, hours, NameCenter)
+Controller->Store:validateScheduleVaccine(schedule)
+activate UI
+UI-->recepcionist:Request data(number, birthdate, gender, vaccine, date, hours, NameCenter)
+company->SV: addScheduleVaccine(number, birthdate, gender, vaccine, date, hours, NameCenter)
+
+
+activate SV
+activate UI
+recepcionist->UI: Types requested data
+
+Controller->SV: setNumber(Number)
+Controller->SV: setBirthdate(birthdate)
+Controller->SV: setGender(Gender)
+Controller->SV: setVaccine(Vaccine)
+Controller->SV: setDate(Date)
+Controller->SV: setHours(Hours)
+Controller->SV: setNameCenter(NameCenter)
+
+activate recepcionist
+UI->recepcionist:Show the respective data and request a confirmation
+UI->Controller: SaveScheduleVaccine()
+Controller->Store:SaveScheduleVaccine(schedulevaccine)
+Store->Store:checkduplicates(schedulevaccine)
+
+recepcionist->UI:Confirm that the data is correct
+Store->Store:validateScheduleVaccine(schedulevaccine)
+Store->Store:addScheduleVaccine(schedulevaccine)
+
+UI->recepcionist: Informs that the vaccine has bee schedule successfully.
+
+
+
+
+@enduml

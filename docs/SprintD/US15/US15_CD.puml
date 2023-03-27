@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class Center_Coordinator{
+}
+class Company{
+-designation
+}
+
+class ExportVaccinatedDailyUI{
+}
+
+class ExportCtrl{
++ExportCtrl()
++checkFileName()
++nameToPath(String fileName)
++export(String date1, String date2)
+}
+
+class ExportStatistics{
++ExportStatistics(String filePath)
++checkFileName()
+}
+
+ExportVaccinatedDailyUI --> ExportCtrl
+ExportCtrl --> Company
+ExportCtrl --> ExportStatistics
+Center_Coordinator --> ExportVaccinatedDailyUI
+
+@enduml

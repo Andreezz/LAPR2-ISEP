@@ -1,0 +1,43 @@
+@startuml
+autonumber
+actor Administrator as ADM
+participant ":CreateRoleListUI" as UI
+participant ":CreateRoleListController" as CTRL
+participant ":Company" as C
+participant "listE :EmployeeStore" as list
+
+activate ADM
+ADM -> UI : asks for a list of Employees\nwith a given role
+activate UI
+UI->CTRL: getRoleList()
+activate CTRL
+CTRL->C: rolesList = getRoleList()
+activate C
+
+deactivate C
+deactivate CTRL
+
+ADM <-- UI: shows role list and\nasks to select one
+deactivate UI
+
+ADM -> UI: selects a role
+activate UI
+UI->CTRL: getEmployeesList(role)
+activate CTRL
+CTRL->C:allEmp = getEmployeeList()
+activate C
+deactivate C
+CTRL-->list**: listE = EmployeeStore()
+loop for each Employee[i] in allEmp
+opt role = getRole(i)
+CTRL->list:addEmployee(i)
+activate list
+deactivate list
+end opt
+end loop
+CTRL-->UI: listE
+deactivate CTRL
+ADM <-- UI: Shows list of employees
+deactivate UI
+
+@enduml

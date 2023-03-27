@@ -1,0 +1,49 @@
+@startuml
+
+CreateRoleListUI ..> CreateRoleListController
+CreateRoleListController ..> Company
+Company "1"--> "1"RoleStore: adopts
+RoleStore "1"--> "*"Role:stores
+EmployeeStore "1" --> "*"Employee:stores
+CreateRoleListController ..> EmployeeStore
+Company "1"-->"1" EmployeeStore:adopts
+
+
+class CreateRoleListUI{
+}
+
+class CreateRoleListController{
++getRoleList()
++getEmployeesList(role)
++addEmployee(i)
+}
+
+class Company{
++getRoleList()
++getEmployeeList()
+}
+
+class RoleStore{
++getRole()
+}
+
+class Role{
+-ID
+-name
+}
+
+class EmployeeStore{
++addEmployee()
+}
+
+class Employee{
+    -name
+    -phoneNumber
+    -roleId
+    -email
+    -cc
+    -address
+    +getRole()
+}
+
+@enduml

@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class "Process Administration" as proc{
+}
+
+
+class "Vaccination Center" as VC{
+-Name
+-Type of Centre
+-Address
+-Phone Number
+-E-mail
+-Fax Number
+-Link
+-Opening Hours
+-Closing Hours
+}
+
+class "Waiting Room" as wait{
+-Lotation
+}
+
+class "Arrival" as arrival{
+-Date
+-Time
+}
+class "Nurse" as nurse{
+}
+
+
+proc"1"<-down-"*"arrival:is a phase of
+arrival"*"-down->"1"wait:sent to
+proc"1"<-down-"*"schedule:is a phase of
+proc"1"<-down-"*"wait:is a phase of
+
+nurse"1"-->"*"wait:checks
+arrival"*"-->"1"VC:at a
+
+
+@enduml
